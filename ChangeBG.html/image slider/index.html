@@ -47,6 +47,22 @@
 </div>
 
 <script>
+// let currentSlide = 0;
+// const slides = document.querySelectorAll('#slider img');
+// const totalSlides = slides.length;
+
+// function showSlide(index) {
+//   slides.forEach(slide => slide.style.display = 'none');
+//   slides[index].style.display = 'block';
+// }
+
+// function changeSlide(direction) {
+//   currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+//   showSlide(currentSlide);
+// }
+
+// // Initialize the slider on the first image
+// showSlide(currentSlide);
 let currentSlide = 0;
 const slides = document.querySelectorAll('#slider img');
 const totalSlides = slides.length;
@@ -63,6 +79,13 @@ function changeSlide(direction) {
 
 // Initialize the slider on the first image
 showSlide(currentSlide);
+
+// Automatically change slides every 2 seconds
+setInterval(() => {
+  changeSlide(1); // This will move to the next slide
+}, 2000);
+
+
 </script>
 
 </body>
