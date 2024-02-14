@@ -3,6 +3,7 @@
     background-color: aqua;
     color: blue;
 }
+
 h1,
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,4 +35,5 @@ body{
     background: linear-gradient(to top left, #efefef, #f4f4f4);
     display: block;
     justify-content: center;
+
 }
