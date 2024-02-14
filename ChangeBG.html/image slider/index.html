@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Slider</title>
+<style>
+  .slider {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    overflow: hidden;
+  }
+
+  .slider img {
+    width: 100%;
+    display: none; /* Hide all images initially */
+  }
+
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button.left {
+    left: 10px;
+  }
+
+  .button.right {
+    right: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="slider" id="slider">
+  <button class="button left" onclick="changeSlide(-1)">&#8592;</button>
+  <button class="button right" onclick="changeSlide(1)">&#8594;</button>
+  <img src="./321558902_721827672927913_8468265271020576376_n.jpg" style="display: block;">
+  <img src="./350524460_1292647641378391_6969639362150808887_n.jpg">
+  <img src="path/to/image3.jpg">
+  <!-- Add as many images as needed -->
+</div>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('#slider img');
+const totalSlides = slides.length;
+
+function showSlide(index) {
+  slides.forEach(slide => slide.style.display = 'none');
+  slides[index].style.display = 'block';
+}
+
+function changeSlide(direction) {
+  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+  showSlide(currentSlide);
+}
+
+// Initialize the slider on the first image
+showSlide(currentSlide);
+</script>
+
+</body>
+</html>
