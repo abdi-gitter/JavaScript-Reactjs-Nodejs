@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter Example</title>
+<script>
+function increment(amount) {
+    let currentVal = parseInt(document.getElementById('counter').innerText);
+    currentVal += amount;
+    document.getElementById('counter').innerText = currentVal;
+}
+</script>
+</head>
+<body>
+
+<div>
+    <button onclick="increment(1)">Increment by 1</button>
+    <button onclick="increment(-1)">Decrement by 1</button>
+    <button onclick="increment(5)">Increment by 5</button>
+    <button onclick="increment(-5)">Decrement by 5</button>
+    <p>Counter: <span id="counter">0</span></p>
+</div>
+
+</body>
+</html>
