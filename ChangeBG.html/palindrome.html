@@ -1,0 +1,34 @@
+<!-- Write an input field that checks if the entered sentence is a palindrome or not. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <script src="palindromeChecker.js"></script>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Enter a sentence">
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="result"></p>
+
+    <script>
+        function checkPalindrome() {
+    const input = document.getElementById('inputField').value;
+    // Normalize the input: remove non-alphanumeric characters and convert to lowercase
+    const normalizedInput = input.replace(/[\W_]/g, '').toLowerCase();
+    // Reverse the normalized input
+    const reversedInput = normalizedInput.split('').reverse().join('');
+
+    // Check if the normalized input is equal to its reversed version
+    const isPalindrome = normalizedInput === reversedInput;
+
+    // Display the result
+    document.getElementById('result').textContent = isPalindrome ?
+        `"${input}" is a palindrome.` :
+        `"${input}" is not a palindrome.`;
+}
+
+    </script>
+</body>
+</html>

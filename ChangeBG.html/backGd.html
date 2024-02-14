@@ -1,0 +1,40 @@
+<!-- 1. Write a div that has a button to change its background every time it's clicked -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background</title>
+    <script src="script.js"></script>
+    </head>
+    <body>
+    
+        
+    <div id="colorChanger" 
+        style="width: 100%; 
+                height: 100vh; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center;">
+
+        <button onclick="changeBackground()">Change Background</button>
+    </div>
+
+
+    <script>
+        // function to change color on background
+        function changeBackground() {
+        const div = document.getElementById('colorChanger');
+        // Define an array of colors to choose from
+        const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink'];
+        // Generate a random index to select a color
+        const randomIndex = Math.floor(Math.random() * colors.length);
+        // Change the div's background to the selected color
+        div.style.backgroundColor = colors[randomIndex];
+    }
+
+    </script>
+    </body>
+</html>
+
+
