@@ -151,4 +151,70 @@ h2{
     #add-task{
         width: 70vw;
     }
+/* Style for checked items */
+.checked {
+    text-decoration: line-through; /* Crosses out the text */
+    color: #aaa; /* Dims the text color */
+    background-color: #f0f0f0; /* Light grey background */
+    transition: all 0.3s ease; /* Smooth transition for changes */
+}
+
+/* Style for unchecked items */
+.unchecked {
+    text-decoration: none; /* No text decoration */
+    color: #333; /* Darker text for better contrast */
+    background-color: #fff; /* White background */
+    transition: all 0.3s ease; /* Smooth transition for changes */
+}
+ul.todolist-list-container li {
+    padding: 10px; /* Adds padding around each task for better spacing */
+    margin-bottom: 5px; /* Adds space between tasks */
+    border-radius: 5px; /* Rounds the corners of task items */
+    display: flex; /* Enables flexible box layout */
+    align-items: center; /* Vertically centers items in the list */
+    justify-content: space-between; /* Spaces out the task text and the delete button */
+    background-color: #fff; /* Sets background color */
+}
+
+ul.todolist-list-container li .btn {
+    padding: 0.5rem 1rem; /* Adjust padding */
+    cursor: pointer; /* Changes cursor on hover */
+    background-color: #e7e7e7; /* Sets a neutral background color */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds the corners */
+}
+
+/* Adds a hover effect for the delete button for better user feedback */
+ul.todolist-list-container li .btn:hover {
+    background-color: #dcdcdc;
+}
+#add-task-form {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Spaces out form elements */
+    align-items: center; /* Vertically aligns items in the form */
+    width: 100%; /* Ensures the form takes the full width */
+}
+
+#task {
+    flex-grow: 1; /* Allows the input to expand and fill available space */
+    margin-right: 10px; /* Adds some space between the input and the button */
+    padding: 10px; /* Adds internal padding for aesthetics */
+    border: 1px solid #ccc; /* Defines a subtle border */
+    border-radius: 5px; /* Rounds the corners of the input field */
+}
+
+.add-btn {
+    padding: 10px 20px; /* Adjusts padding for better visual alignment with input */
+    border: none; /* Removes default border */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate clickable */
+}
+
+.add-btn:hover {
+    background-color: #0056b3; /* Darkens the button on hover for feedback */
+}
+
+
 }

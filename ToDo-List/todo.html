@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +14,17 @@
 </head>
 <body>
     <main> 
-    <h1>To Do List</h1>
-    <form action="add-task">
-        <input type="text" id="task" placeholder="&#128393">
-        <button class="add-btn"><i class="fas fa-plus"></i></button>
-    </form>
-    <div class="todolist">
-        
-        <h2>Your Task List</h2>
-        
-        <ul class="todolist-list-container">
-            <div class="list-group">
-                <li class="unchecked">Task</li>
-                <button class="btn">&128473;</button>
-            </div>
-        </ul>
-    </div>
+        <h1>To Do List</h1>
+        <form id="add-task-form">
+            <input type="text" id="task" placeholder="&#128393; Add new task">
+            <button type="submit" class="add-btn"><i class="fas fa-plus"></i></button>
+        </form>
+        <div class="todolist">
+            <h2>Your Task List</h2>
+            <ul class="todolist-list-container">
+                <!-- Tasks will be dynamically inserted here -->
+            </ul>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
