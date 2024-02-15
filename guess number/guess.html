@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess the Number Game</title>
+<script>
+  let randomNumber;
+  let lowerBound;
+  let upperBound;
+
+  function startGame() {
+    lowerBound = parseInt(document.getElementById('lowerBound').value, 10);
+    upperBound = parseInt(document.getElementById('upperBound').value, 10);
+    if (isNaN(lowerBound) || isNaN(upperBound)) {
+      alert('Please enter valid numbers for both lower and upper bounds.');
+      return;
+    }
+    if (lowerBound >= upperBound) {
+      alert('The upper bound must be greater than the lower bound.');
+      return;
+    }
+    randomNumber = generateRandomNumber(lowerBound, upperBound);
+    askUserGuess();
+  }
+
+  function generateRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function askUserGuess() {
+    let userGuess = parseInt(prompt(`Guess the number between ${lowerBound} and ${upperBound}:`), 10);
+    while (isNaN(userGuess)) {
+      userGuess = parseInt(prompt('That is not a valid number. Try again:'), 10);
+    }
+    checkGuess(userGuess);
+  }
+
+  function checkGuess(guess) {
+    if (guess === randomNumber) {
+      alert('Congratulations! You guessed the right number!');
+    } else if (guess < randomNumber) {
+      alert('Too low! Try again.');
+      askUserGuess();
+    } else if (guess > randomNumber) {
+      alert('Too high! Try again.');
+      askUserGuess();
+    }
+  }
+</script>
+</head>
+<body>
+
+<h2>Guess the Number Game</h2>
+<p>We have selected a random number between the lower and upper bounds you provide. Try to guess it!</p>
+
+<label for="lowerBound">Enter the lower bound:</label>
+<input type="number" id="lowerBound" required>
+
+<label for="upperBound">Enter the upper bound:</label>
+<input type="number" id="upperBound" required>
+
+<button onclick="startGame()">Start Game</button>
+
+</body>
+</html>
+
+
