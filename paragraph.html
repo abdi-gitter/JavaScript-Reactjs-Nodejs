@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paragraph Document</title>
+    </head>
+    <body>
+        <input type="text">
+        <button>Click Here</button>
+        <p></p>
+        <script>
+            let inputElement = document.getElementsByTagName("input")
+        </script>
+    </body>
+</html>
+
+<!-- The code snippet you've provided is a small piece of JavaScript, 
+    which is typically used in web development to add interactivity or functionality to web pages. 
+    Let's break down what this specific code does:
+
+```html
+<script>
+    let inputElement = document.getElementsByTagName("input")
+</script>
+```
+
+1. **`<script>`**: This tag is used in HTML to define a client-side script, such as JavaScript. 
+    It tells the browser that the enclosed text is a script.
+
+2. **`let inputElement =`**: This part declares a variable named `inputElement`. 
+The `let` keyword is used in JavaScript to declare variables that can have block scope. 
+This means `inputElement` is a variable that will be used to store the result of the 
+operation that follows.
+
+3. **`document.getElementsByTagName("input")`**: This is a method call. `document` 
+refers to the entire web page, and `getElementsByTagName` is a method that returns all 
+elements of a specific tag name as a live HTMLCollection. In this case, it's looking for 
+elements with the tag name `"input"`.
+
+   - **`"input"`**: This specifies the type of elements to search for. 
+   `<input>` elements are used to create interactive controls for web-based forms 
+   in order to accept data from the user. For example, text fields, checkboxes, 
+   radio buttons, and more.
+
+So, what this script does is search the entire document (web page) for all 
+elements that are `<input>` elements and assigns them to the variable `inputElement`. 
+After this line of code is executed, `inputElement` will hold a collection of 
+all `<input>` elements found on the page at the time this script runs. This can 
+then be used to manipulate or read information from these input fields 
+programmatically with further JavaScript code. -->
