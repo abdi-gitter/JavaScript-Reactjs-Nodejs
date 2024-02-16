@@ -12,6 +12,8 @@
         p{
             padding: 10px;
             font-size: 20px;
+            background-color: rgb(226, 242, 235);
+            margin: 10px;
         }
     </style>
 
@@ -25,6 +27,7 @@
         <option value="plus">addition</option>
         <option value="minus">subtraction</option>
         <option value="division">division</option>
+        <option value="multiplication">multiplication</option>
     </select>
 
     <button id="submit">Calculate</button>
@@ -54,13 +57,16 @@
             if(operation.value === "minus"){
                 result.textContent = firstNumber - secondNumber
             }
-            if(operation.value === "division"){
-                secondNumber !== 0 ? result.textContent === firstNumber / secondNumber : 
-                result.textContent =  "Please enter a number different from zero"
+            if(operation.value === "multiplication"){
+                result.textContent = firstNumber * secondNumber
             }
-
+            if(operation.value === "division")
+                secondNumber !== 0 ? result.textContent = firstNumber / secondNumber : 
+                result.textContent =  "Please enter a number different from zero"
+            
+            
         })
-
+        
     </script>
 
 </body>
