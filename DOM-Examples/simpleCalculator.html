@@ -32,13 +32,14 @@
 
     <button id="submit">Calculate</button>
     <div>
-        <p>here's the result</p>
+        <p>here's the result: </p>
         <p id="result"></p>
     </div>
 
     <script>
         
-        // save the information into variables
+        // save the information into variables, these are references 
+        // pointing to 
         let first = document.querySelector("#first")
         let second = document.querySelector("#second")
         let operation = document.querySelector("#operation")
@@ -63,11 +64,24 @@
             if(operation.value === "division")
                 secondNumber !== 0 ? result.textContent = firstNumber / secondNumber : 
                 result.textContent =  "Please enter a number different from zero"
-            
-            
+              
+            console.log(result.textContent)
         })
+        
         
     </script>
 
 </body>
 </html>
+<!-- JavaScript, when you say let first = document.querySelector("#first"), 
+    you are indeed obtaining a reference to a DOM (Document Object Model) object. 
+    This object represents the HTML element with the id first in your document. 
+    The DOM object has properties and methods that allow you to interact with 
+    the corresponding HTML element through JavaScript.
+
+When you access first.value, you are accessing the value property of the DOM 
+object referenced by first. This property contains the current value of the 
+input element, which can be modified by the user or programmatically through 
+JavaScript. By wrapping first.value with Number(first.value), you are 
+converting the value of the input field from a string to a number, 
+allowing for numerical operations to be performed with it. -->
