@@ -20,6 +20,7 @@
 
     <input id="first" type="text" placeholder="enter first number">
     <input id="second" type="text" placeholder="enter second number">
+
     <select id="operation">
         <option value="plus">addition</option>
         <option value="minus">subtraction</option>
@@ -34,6 +35,33 @@
 
     <script>
         
+        // save the information into variables
+        let first = document.querySelector("#first")
+        let second = document.querySelector("#second")
+        let operation = document.querySelector("#operation")
+        let submit = document.querySelector("#submit")
+        let result = document.querySelector("#result")
+        
+        //when the user click on submit
+        submit.addEventListener("click", () => {
+
+            let firstNumber = Number(first.value)
+            let secondNumber = Number(second.value)
+
+            if(operation.value === "plus"){
+                result.textContent = firstNumber + secondNumber
+            }
+            if(operation.value === "minus"){
+                result.textContent = firstNumber - secondNumber
+            }
+            if(operation.value === "division"){
+                secondNumber !== 0 ? result.textContent === firstNumber / secondNumber : 
+                result.textContent =  "Please enter a number different from zero"
+            }
+
+        })
+
     </script>
+
 </body>
 </html>
