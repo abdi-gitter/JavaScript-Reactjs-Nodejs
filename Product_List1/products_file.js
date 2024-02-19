@@ -9,13 +9,13 @@ const products = [
     stock: 94,
     brand: 'Apple',
     category: 'smartphones',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/1/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/1/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/1/1.jpg',
       'https://dummyjson.com/image/i/products/1/2.jpg',
       'https://dummyjson.com/image/i/products/1/3.jpg',
       'https://dummyjson.com/image/i/products/1/4.jpg',
-      'https://cdn.dummyjson.com/image/i/products/1/thumbnail.jpg',
+      'https://dummyjson.com/image/i/products/1/thumbnail.jpg',
     ],
   },
   {
@@ -29,7 +29,7 @@ const products = [
     stock: 34,
     brand: 'Apple',
     category: 'smartphones',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/2/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/2/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/2/1.jpg',
       'https://dummyjson.com/image/i/products/2/2.jpg',
@@ -48,7 +48,7 @@ const products = [
     stock: 36,
     brand: 'Samsung',
     category: 'smartphones',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/3/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/3/thumbnail.jpg',
     images: ['https://dummyjson.com/image/i/products/3/1.jpg'],
   },
   {
@@ -61,7 +61,7 @@ const products = [
     stock: 123,
     brand: 'OPPO',
     category: 'smartphones',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/4/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/4/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/4/1.jpg',
       'https://dummyjson.com/image/i/products/4/2.jpg',
@@ -81,7 +81,7 @@ const products = [
     stock: 32,
     brand: 'Huawei',
     category: 'smartphones',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/5/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/5/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/5/1.jpg',
       'https://dummyjson.com/image/i/products/5/2.jpg',
@@ -99,7 +99,7 @@ const products = [
     stock: 83,
     brand: 'APPle',
     category: 'laptops',
-    thumbnail: './images/children-593313_1280.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/6/thumbnail.png',
     images: [
       'https://dummyjson.com/image/i/products/6/1.png',
       'https://dummyjson.com/image/i/products/6/2.jpg',
@@ -118,7 +118,7 @@ const products = [
     stock: 50,
     brand: 'Samsung',
     category: 'laptops',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/7/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/7/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/7/1.jpg',
       'https://dummyjson.com/image/i/products/7/2.jpg',
@@ -137,7 +137,7 @@ const products = [
     stock: 68,
     brand: 'Microsoft Surface',
     category: 'laptops',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/8/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/8/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/8/1.jpg',
       'https://dummyjson.com/image/i/products/8/2.jpg',
@@ -157,7 +157,7 @@ const products = [
     stock: 96,
     brand: 'Infinix',
     category: 'laptops',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/9/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/9/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/9/1.jpg',
       'https://dummyjson.com/image/i/products/9/2.png',
@@ -177,7 +177,7 @@ const products = [
     stock: 89,
     brand: 'HP Pavilion',
     category: 'laptops',
-    thumbnail: './images/i-bought-my-first-gaming-laptop-hp-pavilion-gaming-11th-gen-v0-t1wu5gaiwzw91.webp',
+    thumbnail: 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg',
     images: [
       'https://dummyjson.com/image/i/products/10/1.jpg',
       'https://dummyjson.com/image/i/products/10/2.jpg',
@@ -196,7 +196,7 @@ const products = [
     stock: 65,
     brand: 'Impression of Acqua Di Gio',
     category: 'fragrances',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/11/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/11/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/11/1.jpg',
       'https://dummyjson.com/image/i/products/11/2.jpg',
@@ -214,7 +214,7 @@ const products = [
     stock: 52,
     brand: 'Royal_Mirage',
     category: 'fragrances',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/12/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/12/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/12/1.jpg',
       'https://dummyjson.com/image/i/products/12/2.jpg',
@@ -234,7 +234,7 @@ const products = [
     stock: 61,
     brand: 'Fog Scent Xpressio',
     category: 'fragrances',
-    thumbnail: './images/hc-fxp-265.webp',
+    thumbnail: 'https://dummyjson.com/image/i/products/13/thumbnail.webp',
     images: [
       'https://dummyjson.com/image/i/products/13/1.jpg',
       'https://dummyjson.com/image/i/products/13/2.png',
@@ -254,7 +254,7 @@ const products = [
     stock: 114,
     brand: 'Al Munakh',
     category: 'fragrances',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/14/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/14/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/14/1.jpg',
       'https://dummyjson.com/image/i/products/14/2.jpg',
@@ -273,7 +273,7 @@ const products = [
     stock: 105,
     brand: 'Lord - Al-Rehab',
     category: 'fragrances',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/15/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/15/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/15/1.jpg',
       'https://dummyjson.com/image/i/products/15/2.jpg',
@@ -293,7 +293,7 @@ const products = [
     stock: 110,
     brand: "L'Oreal Paris",
     category: 'skincare',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/16/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/16/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/16/1.png',
       'https://dummyjson.com/image/i/products/16/2.webp',
@@ -313,7 +313,7 @@ const products = [
     stock: 78,
     brand: 'Hemani Tea',
     category: 'skincare',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/17/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/17/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/17/1.jpg',
       'https://dummyjson.com/image/i/products/17/2.jpg',
@@ -332,7 +332,7 @@ const products = [
     stock: 88,
     brand: 'Dermive',
     category: 'skincare',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/18/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/18/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/18/1.jpg',
       'https://dummyjson.com/image/i/products/18/2.jpg',
@@ -352,7 +352,7 @@ const products = [
     stock: 54,
     brand: 'ROREC White Rice',
     category: 'skincare',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/19/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/19/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/19/1.jpg',
       'https://dummyjson.com/image/i/products/19/2.jpg',
@@ -371,7 +371,7 @@ const products = [
     stock: 140,
     brand: 'Fair & Clear',
     category: 'skincare',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/20/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/20/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/20/1.jpg',
       'https://dummyjson.com/image/i/products/20/2.jpg',
@@ -390,7 +390,7 @@ const products = [
     stock: 133,
     brand: 'Saaf & Khaas',
     category: 'groceries',
-    thumbnail: './images/241bb1010a499d9abc45d89d8347742b.jpg_750x750.jpg_.webp',
+    thumbnail: 'https://dummyjson.com/image/i/products/21/thumbnail.png',
     images: [
       'https://dummyjson.com/image/i/products/21/1.png',
       'https://dummyjson.com/image/i/products/21/2.jpg',
@@ -407,7 +407,7 @@ const products = [
     stock: 146,
     brand: 'Bake Parlor Big',
     category: 'groceries',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/22/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/22/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/22/1.jpg',
       'https://dummyjson.com/image/i/products/22/2.jpg',
@@ -425,7 +425,7 @@ const products = [
     stock: 26,
     brand: 'Baking Food Items',
     category: 'groceries',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/23/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/23/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/23/1.jpg',
       'https://dummyjson.com/image/i/products/23/2.jpg',
@@ -445,7 +445,7 @@ const products = [
     stock: 113,
     brand: 'fauji',
     category: 'groceries',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/24/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/24/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/24/1.jpg',
       'https://dummyjson.com/image/i/products/24/2.jpg',
@@ -464,7 +464,7 @@ const products = [
     stock: 47,
     brand: 'Dry Rose',
     category: 'groceries',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/25/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/25/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/25/1.png',
       'https://dummyjson.com/image/i/products/25/2.jpg',
@@ -484,7 +484,7 @@ const products = [
     stock: 131,
     brand: 'Boho Decor',
     category: 'home-decoration',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/26/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/26/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/26/1.jpg',
       'https://dummyjson.com/image/i/products/26/2.jpg',
@@ -505,7 +505,7 @@ const products = [
     stock: 17,
     brand: 'Flying Wooden',
     category: 'home-decoration',
-    thumbnail: './images/flying_duck.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/27/thumbnail.webp',
     images: [
       'https://dummyjson.com/image/i/products/27/1.jpg',
       'https://dummyjson.com/image/i/products/27/2.jpg',
@@ -525,7 +525,7 @@ const products = [
     stock: 54,
     brand: 'LED Lights',
     category: 'home-decoration',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/28/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/28/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/28/1.jpg',
       'https://dummyjson.com/image/i/products/28/2.jpg',
@@ -545,7 +545,7 @@ const products = [
     stock: 7,
     brand: 'luxury palace',
     category: 'home-decoration',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/31/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/29/thumbnail.webp',
     images: [
       'https://dummyjson.com/image/i/products/29/1.jpg',
       'https://dummyjson.com/image/i/products/29/2.jpg',
@@ -565,7 +565,7 @@ const products = [
     stock: 54,
     brand: 'Golden',
     category: 'home-decoration',
-    thumbnail: 'https://cdn.dummyjson.com/product-images/30/thumbnail.jpg',
+    thumbnail: 'https://dummyjson.com/image/i/products/30/thumbnail.jpg',
     images: [
       'https://dummyjson.com/image/i/products/30/1.jpg',
       'https://dummyjson.com/image/i/products/30/2.jpg',
