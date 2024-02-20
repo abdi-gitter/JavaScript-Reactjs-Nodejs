@@ -1,3 +1,4 @@
+//function to validate the email
 function validateEmail() {
     const emailInput = document.getElementById('email-input').value;
     const resultElement = document.getElementById('result');
