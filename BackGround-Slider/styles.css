@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.4s;
+}
+
+body::before {
+  content: '';   /*empty string*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.slider-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 70vh;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  opacity: 0;
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: -15vh;
+  left: -15vw;
+  transition: 0.4s ease;
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.arrow {
+  position: fixed;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid orange;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow:focus {
+  outline: 0;
+}
+
+.left-arrow {
+  left: calc(15vw - 65px);
+}
+
+.right-arrow {
+  right: calc(15vw - 65px);
+}
+/* 
+
+The CSS `@import` rule you've shared is used to include the Roboto font family from Google Fonts 
+into a CSS file. This font family is specified with weights of 400 (normal weight) and 700 
+(bold weight). Here's a breakdown of what this import does and how it can be used:
+
+- `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');`: 
+This line tells the browser to fetch and include the specified CSS file from Google's font service. 
+The URL points to the Google Fonts API, requesting the Roboto font family with the specified 
+font weights.
+
+- `family=Roboto`: This part of the URL specifies that you're requesting the Roboto font family.
+
+- `wght@400;700`: This specifies the font weights you want to include. `400` corresponds 
+to the normal or regular font weight, and `700` corresponds to the bold font weight. 
+Including both allows you to use these font weights in your CSS by referring to the 
+Roboto font family.
+
+- `display=swap`: This parameter controls font display behavior. Using `swap` 
+tells the browser to use a fallback font to display the text until the requested 
+font is downloaded. This can improve the perceived load time of web pages by 
+ensuring that text is visible sooner, even if it initially appears in a different font.
+
+To use Roboto in your HTML elements, you would then apply it in your CSS like so:
+
+```css
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
+This CSS rule sets the Roboto font as the default font for all text inside 
+the `<body>` element. If Roboto is not available for some reason, the browser
+ will fall back to using any available sans-serif font. Including the font this 
+ way enhances the visual design of your web pages by leveraging a high-quality, 
+ web-optimized font.
+
+*/
+
+/* 
+The CSS code snippet you've shared defines a ::before pseudo-element for the <body> element. 
+This pseudo-element is used to insert content just before the content of the <body> tag. 
+Here's a detailed breakdown of what each property in the snippet does:
+
+content: ''; This property is required for ::before and ::after pseudo-elements to work. 
+It specifies what content to insert. In this case, an empty string is used, meaning no 
+actual content is added, but the pseudo-element can still be styled and take up space.
+*/
