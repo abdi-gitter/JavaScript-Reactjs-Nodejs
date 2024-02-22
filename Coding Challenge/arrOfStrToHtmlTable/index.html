@@ -1,0 +1,76 @@
+<!-- The purpose of this coding challenge is to display the 
+    data given as string in the form of an html table -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Data in Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="tableContainer"></div>
+
+    <script>
+        const inputData = [
+            'C1234 - John Doe, London, Full-Stack',
+            'C2345 - Jane Doe, London, Data-Science',
+            'C2346 - Mary Ann, Paris, AWS-Devops',
+            'C2347 - Adam Smith, Texas, AWS-Devops',
+            'C2444 - Michael Great, Arizona, Full-Stack',
+            'C2555 - William Cash, Manchester, Data-Science',
+            'C2455 - Patrick Jane, Madrid, Full-Stack'
+        ];
+
+        function createTable(data) {
+            // Create a table element
+            const table = document.createElement('table');
+
+            // Create table header
+            const headers = ['St Nr', 'First Name', 'Last Name', 'Location', 'Path'];
+            const thead = table.createTHead();
+            const headerRow = thead.insertRow();
+            headers.forEach(headerText => {
+                const headerCell = document.createElement('th');
+                headerCell.textContent = headerText;
+                headerRow.appendChild(headerCell);
+            });
+
+            // Populate table rows with the data
+            const tbody = table.createTBody();
+            data.forEach(item => {
+                const row = tbody.insertRow();
+                // Split the string into components
+                const parts = item.split(' - ');
+                const stNr = parts[0]; // Extract student number
+                const details = parts[1].split(', ');
+                const names = details[0].split(' ');
+                const lastName = names.pop();
+                const firstName = names.join(' ');
+                const location = details[1];
+                const path = details[2];
+
+                // Create an array of the data to be inserted
+                const rowData = [stNr, firstName, lastName, location, path];
+                
+                rowData.forEach(cellData => {
+                    const cell = row.insertCell();
+                    cell.textContent = cellData;
+                });
+            });
+
+            return table;
+        }
+
+        // Display the table
+        const tableContainer = document.getElementById('tableContainer');
+        tableContainer.appendChild(createTable(inputData));
+    </script>
+</body>
+</html>

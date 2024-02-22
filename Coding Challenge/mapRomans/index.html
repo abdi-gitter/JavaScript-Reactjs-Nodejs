@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter</title>
+</head>
+<body>
+    <h1>Roman Numeral Converter</h1>
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+    <button onclick="convertAndDisplay()">Convert</button>
+    <p>Result: <span id="result"></span></p>
+
+    <script>
+        function convertToRoman(num) {
+            const romanMap = [
+                [1000, 'M'],
+                [900, 'CM'],
+                [500, 'D'],
+                [400, 'CD'],
+                [100, 'C'],
+                [90, 'XC'],
+                [50, 'L'],
+                [40, 'XL'],
+                [10, 'X'],
+                [9, 'IX'],
+                [5, 'V'],
+                [4, 'IV'],
+                [1, 'I']
+            ];
+
+            let romanNumeral = '';
+
+            for (let i = 0; i < romanMap.length; i++) {
+                while (num >= romanMap[i][0]) {
+                    romanNumeral += romanMap[i][1];
+                    num -= romanMap[i][0];
+                }
+            }
+
+            return romanNumeral;
+        }
+
+        function convertAndDisplay() {
+            const num = document.getElementById('numberInput').value;
+            const result = convertToRoman(parseInt(num));
+            document.getElementById('result').textContent = result;
+        }
+    </script>
+</body>
+</html>
