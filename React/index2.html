@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Divs</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightblue;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- The container where the divs will be appended -->
+    <div id="container"></div>
+
+    <script>
+        // Get a reference to the container div
+        var container = document.getElementById('container');
+
+        // Loop to create 5 div elements
+        for (var i = 1; i <= 5; i++) {
+            // Create a new div and set its class
+            var div = document.createElement('div');
+            div.className = 'box';
+            div.textContent = 'Box #' + i;
+            
+            // Create an anonymous function to be used as the
+            // click event handler
+            // Use an immediately-invoked function expression (IIFE)
+            // to bind the value of 'i' to each click event
+            (function(index) {
+                div.onclick = function() {
+                    alert('This is box #' + index);
+                };
+            })(i);
+
+            // Append the new div to the container
+            container.appendChild(div);
+        }
+    </script>
+</body>
+</html>
