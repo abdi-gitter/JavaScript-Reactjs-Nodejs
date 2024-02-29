@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = prompt("Enter number1");
+        num1 = parseInt(num1);
+        let num2 = prompt("Enter number2");
+        num2 = parseInt(num2);
+        
+        const diff1 = Math.abs(100 - num1);
+        const diff2 = Math.abs(100 - num2);
+
+        if(diff1 < diff2){
+            console.log(num1 + " is closer to 100 than " + num2);
+        }else if(diff2 < diff1){
+            console.log(num2 + " is closer to 100 than " + num1)
+        }else{
+            console.log("Both numbers are equally closer to 100")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let day = prompt("Enter a day:");
+
+        
+        if (day === "monday" || day === "MONDAY" || 
+            day === "tuesday" || day === "TUESDAY" || 
+            day === "wednesday" || day === "WEDNESDAY" || 
+            day === "thursday" || day === "THURSDAY" || 
+            day === "friday" || day === "FRIDAY") {
+            alert(day + " is a weekday");
+        } else if (day === "saturday" || day === "SATURDAY" || 
+                   day === "sunday" || day === "SUNDAY") {
+            alert(day + " is not a weekday");
+        } else {
+            alert("Invalid input. Please enter a valid day of the week.");
+        }
+    </script>
+</body>
+</html>
