@@ -1,0 +1,20 @@
+//pass by value
+function modifyPrimitive(value) {
+    value = "changed";
+    console.log("Inside function:", value);
+}
+
+let myString = "original";
+modifyPrimitive(myString);
+console.log("Outside function:", myString); // "original"
+
+
+//pass by referece
+function modifyObject(obj) {
+    obj.property = "changed";
+    console.log("Inside function:", obj.property);
+}
+
+let myObj = { property: "original" };
+modifyObject(myObj);
+console.log("Outside function:", myObj.property); // "changed"
