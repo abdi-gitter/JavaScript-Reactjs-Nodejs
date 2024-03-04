@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gravity Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .ball, .ball2 {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .ball2{
+            background-color: rgb(206, 68, 68);
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ball" id="ball"></div>
+    <div class="ball2" id="ball2"></div>
+
+    <script>
+        const ball = document.getElementById('ball');
+
+        let positionY = 0; // Initial position
+        let velocityY = 0; // Initial velocity
+        const gravity = 0.5; // Gravity strength
+
+        function update() {
+            velocityY += gravity; // Apply gravity to velocity
+            positionY += velocityY; // Update position based on velocity
+
+            // Check if the ball hits the bottom of the screen
+            if (positionY > window.innerHeight - ball.clientHeight) {
+                positionY = window.innerHeight - ball.clientHeight; // Keep the ball above the bottom
+                velocityY *= -0.8; // Reverse velocity and reduce it (simulate bounce)
+            }
+
+            ball.style.top = positionY + 'px'; // Update the ball's position on the screen
+        }
+
+        setInterval(update, 16); // Update the animation every 16 milliseconds (approximately 60 frames per second)
+
+        const ball2 = document.getElementById('ball2');
+
+        let positionY2 = 0; // Initial position
+        let velocityY2 = 0; // Initial velocity
+
+        function update2() {
+            velocityY2 += gravity; // Apply gravity to velocity
+            positionY2 += velocityY2; // Update position based on velocity
+
+            // Check if the ball hits the bottom of the screen
+            if (positionY2 > window.innerHeight - ball2.clientHeight) {
+                positionY2 = window.innerHeight - ball2.clientHeight; // Keep the ball above the bottom
+                velocityY2 *= -0.8; // Reverse velocity and reduce it (simulate bounce)
+            }
+
+            ball2.style.top = positionY2 + 'px'; // Update the ball's position on the screen
+        }
+
+        setTimeout(()=>{setInterval(update2, 16)}, 500); // Update the animation every 16 milliseconds (approximately 60 frames per second)
+
+        document.body.style.backgroundColor = 'black';
+    </script>
+</body>
+
+</html>
