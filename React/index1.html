@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            cursor: pointer;
+            margin: 20px;
+            background-color: brown;
+            color: white;
+
+        }
+        #container{
+            background-color: black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        var container = document.getElementById('container');
+         for(let i = 1; i<=5; i++) {
+    var div = document.createElement('div');
+    div.className = 'box';
+    div.textContent = 'Box ' + i;
+    div.onclick = function(){
+        alert('This is Box # ' + i);
+    };
+    container.appendChild(div);
+} 
+
+        //loop to create five div's in the container
+        /*  for(var i = 0; i<5; i++) {
+            var div = document.createElement('div');
+            div.className = 'box';
+            
+            //bind each click to the value of i
+            
+                div.onclick = function(){
+                    alert('This is Box # ' + i);
+                }
+            }; 
+            //Append div's to the container
+            container.appendChild(div);  */
+        
+    </script>
+</body>
+</html>
