@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="output">Hello</h1>
+    <input type="text" id="input">
+    <button id="button">Click me</button>
+
+    <script>
+        const button = document.getElementById('button')
+        const output = document.getElementById('output')
+
+        const example = ()=>{
+            return new Promise((resolve, reject)=>{
+                // simulate some async operation (waste time intentionally)
+                setTimeout(()=>{
+                    const input = document.getElementById('input').value
+                    if(input !== ''){
+                        resolve(input)
+                    } else {
+                        reject(new Error('Input is empty'))
+                    }
+                }, 2000)
+            })
+        }
+
+        const asyncFunction = async ()=>{
+            try{
+                const value = await example()
+                output.innerText = value
+            } catch (value){
+                output.innerText = value
+                throw new Error('User input was empty')
+            } finally {
+                console.log('This will always run')
+            }
+        }
+
+        button.addEventListener('click', asyncFunction)
+
+       
+    </script>
+</body>
+</html>
