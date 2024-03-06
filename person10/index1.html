@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        setTimeout(function(){
+            console.log('Timer')
+         }, 5000);
+
+        function x(y){
+            console.log('x');
+            
+            y();
+        }
+
+            x(function y(){
+         console.log('y');
+        });
+    </script>
+</body>
+</html>
