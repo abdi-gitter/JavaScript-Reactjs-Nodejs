@@ -9,7 +9,7 @@ function blurring() {
   load++;
 
   if (load > 99) {
-    clearInterval(int);
+    clearInterval(int); 
   }
 
   loadText.innerText = `${load}%`;
