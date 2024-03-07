@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Student List</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <h5>Add a Student</h5>
+        <form class="my-3">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="first-name"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="last-name"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="number"
+              placeholder="Number"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="path"
+              placeholder="Path"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Student List</h1>
+
+          <ul class="list-group" id="student-container">
+            <!-- <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li> -->
+          </ul>
+        </div>
+      </div>
+
+      <button class="btn btn-danger" id="update">Update</button>
+      <button class="btn btn-danger" id="delete">Delete</button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
