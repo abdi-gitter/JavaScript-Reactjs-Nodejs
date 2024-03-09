@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Java Script</h1>
+    <script>
+
+
+
+       let arr = ["Abdisa", "Bedada"];
+       let object = {
+        name: "Abdisa",
+        city: "Winkler",
+        getIntro: function(){
+            console.log(this.name + " From " + this.city)
+        }
+       }
+       let object2 = {
+        city: "India"
+       }
+
+       //never do this in real coding
+
+       object2.__proto__ = object; 
+       //this will make be able to access methods and properties of object
+       
+       
+       Function.prototype.mybind = function(){
+        console.log("Message should appear here");
+       }
+       function fun() {
+        
+       }
+       function fun3() {
+        
+    }
+       
+       
+
+
+    </script>
+</body>
+</html>
