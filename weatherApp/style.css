@@ -1,0 +1,105 @@
+:root {
+    --bg_main: #0c6396;
+    --text_light: #fff;
+    --text_med: #53627c;
+    --text_dark: #1e2432;
+    --red: #ff1e42;
+    --darkred: #c3112d;
+    --orange: #ff8c00;
+  }
+  
+  body {
+    background: var(--bg_main);
+    color: var(--text_dark);
+    font: 1rem/1.3 "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .header__title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .header__input {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    font-size: 2rem;
+    border-bottom: 1px solid;
+  }
+  
+  .header__input::placeholder {
+    color: currentColor;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info .city {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--text_light);
+    color: var(--text_med);
+    margin-bottom: 20px;
+    overflow: hidden;
+    min-width: 200px;
+  }
+  
+  .weather-info .city-name .country-code {
+    padding: 0.2rem 0.6rem;
+    border-radius: 30px;
+    color: var(--text_light);
+    background: var(--orange);
+    font-size: 0.7rem;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  
+  .weather-info .close-icon {
+    display: none; /* Initially hide the close icon */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .weather-info .city:hover .close-icon {
+    display: inline; /* Show the close icon on hover */
+  }
+  
+  .weather-info .city-temp {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--text_dark);
+  }
+  
+  .weather-info figcaption {
+    margin-top: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+  }
+  
+  .weather-info .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .page-footer {
+    text-align: right;
+    font-size: 1rem;
+    color: var(--text_light);
+    margin-top: 40px;
+  }
