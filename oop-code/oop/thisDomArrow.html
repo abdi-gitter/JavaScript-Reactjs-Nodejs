@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <h2>World</h2>
+    <h3>We are playing with the "this" keyword in JavaScript</h3>
+
+    <script>
+        console.log(this);
+
+        // This in this case will refer to the window object
+        
+        const logThis = ()=>{
+
+            console.log(this);
+
+            if(this.tagName === 'H1'){
+                this.style.color = 'red';
+            }
+            if(this.tagName === 'H2'){
+                this.style.color = 'green';
+            }
+            if(this.tagName === 'H3'){
+                this.style.color = 'blue';
+            }
+        }
+
+        var h1 = document.querySelector('h1');
+        var h2 = document.querySelector('h2');
+        var h3 = document.querySelector('h3');
+
+        h1.addEventListener('click', logThis);
+        h2.addEventListener('click', logThis);
+        h3.addEventListener('click', logThis);
+
+    </script>
+</body>
+
+</html>
