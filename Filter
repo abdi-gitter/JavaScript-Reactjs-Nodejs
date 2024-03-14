@@ -1,0 +1,22 @@
+filter
+let users = [
+  { firstName: "Susan",lastName: "Steward", age: 14 },
+  { firstName: "Daniel",lastName: "Longbottom", age: 16 },
+  { firstName: "Bruno",lastName: "Black", age: 56 },
+  { firstName: "Jacob",lastName: "Joyo", age: 15 },
+  { firstName: "Sam",lastName: "Drogo", age: 64 },
+];
+
+let usersFullNames = users.map((user)=>{
+  //let's add the firstname and lastname together
+  let fullName = user.firstName + ' ' + user.lastName;
+  return fullName
+});
+console.log(usersFullNames)
+
+// Output
+[ 'Susan Steward',
+  'Daniel Longbottom',
+  'Bruno Black',
+  'Jacob Joyo',
+  'Sam Drogo' ]
