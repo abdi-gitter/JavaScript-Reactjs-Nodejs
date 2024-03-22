@@ -1,0 +1,41 @@
+.title {
+    justify-content: center;
+    background-color: aqua;
+    color:blue;
+}
+
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.logo {
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    background-color: antiquewhite;
+    min-height: 96vh;
+    background: linear-gradient(to top left, #efefef, #f4f4f4);
+    display: block;
+    justify-content: center;
+}
