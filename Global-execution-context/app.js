@@ -1,3 +1,4 @@
+//Globa execution context
 var x = 1;
 a();
 b();
