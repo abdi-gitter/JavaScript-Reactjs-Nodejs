@@ -1,5 +1,5 @@
 //* ====================================================
-//*                 Checkout Page Solution
+//*                 Checkout Page Solution by Barry
 //* ====================================================
 
 //! App Variables
