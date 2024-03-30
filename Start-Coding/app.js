@@ -1,3 +1,4 @@
+//These are different js examples 
 /* //Factory Function
 function createCircle(radius){
     return {
