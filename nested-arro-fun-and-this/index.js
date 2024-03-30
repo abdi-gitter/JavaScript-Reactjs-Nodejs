@@ -1,3 +1,4 @@
+//Nested arrow functions and some notes
 /* function OuterFunction() {
     this.outerValue = "Outer";
     // Arrow function as a method of the object
