@@ -1,3 +1,4 @@
+//Final Project of stopwatch
 let stopwatchStatus = "stopped";
 let milliseconds = 0, seconds = 0, minutes = 0;
 let interval;
