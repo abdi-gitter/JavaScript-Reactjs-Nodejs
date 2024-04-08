@@ -25,6 +25,8 @@ the class .slide. This returns a NodeList containing all the slide
  used to access and modify slide elements, and currentIndex will be 
  updated to reflect the currently visible slide.*/
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.slide');
     let currentIndex = 0; // Track the current slide
