@@ -1,4 +1,7 @@
-/* beginning of a script designed to run once the DOM (Document Object Model) is fully loaded. 
+/* 
+Read the note to understand more
+
+beginning of a script designed to run once the DOM (Document Object Model) is fully loaded. 
 This is a common approach to ensure that all HTML elements are fully loaded and accessible via 
 JavaScript 
 
