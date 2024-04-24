@@ -13,7 +13,7 @@
 // }
 // console.log(number)
 
-// //  Question 2
+// //  Question 2 //
 // const input1 = 18;
 // const input2 = 24;
 
