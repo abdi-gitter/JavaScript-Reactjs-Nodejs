@@ -68,7 +68,7 @@ function validateSSN(ssn) {
     return true;
 }
 
-// Test cases
+// Test cases to validate
 validateSSN("268-26-3556"); // Valid
 validateSSN("237-86-7532"); // Valid
 validateSSN("304-92-5339"); // Valid
