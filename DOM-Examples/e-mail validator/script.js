@@ -68,7 +68,7 @@ function validateEmail() {
     return true;
 }
 
-// Test cases
+// Test cases to validate
 validateEmail("name.last_Name@company.com"); // Valid
 validateEmail("name.143@company.co"); // Valid
 validateEmail("name.last-Name@company.com"); // Invalid
