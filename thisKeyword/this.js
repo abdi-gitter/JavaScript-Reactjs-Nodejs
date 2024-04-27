@@ -32,7 +32,7 @@ function greet() {
   
 
 
-  /* Arrow Functions
+  /* Arrow Functions explanation
 Arrow functions do not have their own this context; instead, 
 they capture the this value of the enclosing context at the time 
 they are created. This is particularly useful in callbacks and 
