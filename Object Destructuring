@@ -1,4 +1,4 @@
-//How we use Object Destructuring
+//How we use Object Destructuring in js
 const note = {
   id: 1,
   title: 'My first note',
