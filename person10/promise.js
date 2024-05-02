@@ -1,3 +1,4 @@
+//How promise works
 let myPromise = new Promise(function (resolve, reject) {
     // producing code
     // ... takes some time
