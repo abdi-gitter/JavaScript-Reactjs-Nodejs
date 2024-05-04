@@ -127,7 +127,7 @@ function Circle(radius){
 
 
 
-//primitive vs reference type
+//primitive vs reference data type
 
 //value or primitive type
 // let x = 10;
