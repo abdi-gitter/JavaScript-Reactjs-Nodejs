@@ -1,4 +1,4 @@
-//function to update cart display
+//function to update cart display//
 let cart = [];
 
 function updateCartDisplay() {
