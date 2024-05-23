@@ -1,4 +1,5 @@
-/* getName();//Hello
+// Global execution context
+/* getName();//Hello 
 console.log(x); //in this case undefined
 console.log(getName);//in this case the function
 var x = 7;
