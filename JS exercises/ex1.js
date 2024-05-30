@@ -1,3 +1,4 @@
+//Example
 let num = prompt("Enter a number:");
 num = parseInt(num); 
 
