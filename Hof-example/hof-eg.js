@@ -1,4 +1,4 @@
-//How Higher order functions work
+//How Higher order functions work in js
 const radius = [3, 2, 1, 4];
 const calculateArea = function (radius) {
     const output = [];
