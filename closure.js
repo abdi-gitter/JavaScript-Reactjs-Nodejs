@@ -1,4 +1,4 @@
-// A simple closure function
+// A simple closure function//
 function x(){
     var a = 7;
     function y() {
