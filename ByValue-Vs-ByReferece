@@ -1,4 +1,4 @@
-//This simple example demo is about pass by value
+//This simple example demo is about pass by value//
 function modifyPrimitive(value) {
     value = "changed";
     console.log("Inside function:", value);
