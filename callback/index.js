@@ -1,4 +1,4 @@
-//function for callback
+//function for callback//
 function attachEventListeners(){
     let count = 0;
     document.getElementById('clickMe')
