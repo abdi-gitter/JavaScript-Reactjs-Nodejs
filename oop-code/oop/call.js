@@ -1,3 +1,4 @@
+//Call
 function product(a, b){
     return a * b * this.multiplier
 }
