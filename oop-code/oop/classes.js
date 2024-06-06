@@ -1,3 +1,4 @@
+//Classes
 class Person{
     // Static methods/properties belong to ONLY the class itself
     static count = 0
