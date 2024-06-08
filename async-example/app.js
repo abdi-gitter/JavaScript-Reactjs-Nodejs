@@ -28,7 +28,7 @@ const searchCountry = async (countryName) => {
         console.log(data)
 
         // Data is an array of objects.  Each object is a country that matches our search.
-        // We only want the first element in this array.
+        // We only want the first element in this array.//
 
         let countryData = data.length > 1 ?data.filter(country => country.name.common.toLowerCase() === countryName.toLowerCase())[0] : data[0]
         // Loop through this countryData array, and filter out all countries that don't have the common name matching the search value.
