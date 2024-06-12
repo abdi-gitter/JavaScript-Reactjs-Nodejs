@@ -1,3 +1,4 @@
+//functions
 var x = 1;
 a();
 b();
