@@ -1,3 +1,4 @@
+//Student
 const student = {
     firstName: 'Jane',
     lastName: 'smith',
