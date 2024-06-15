@@ -77,7 +77,7 @@ document.querySelector('#add-product form').addEventListener('submit', function(
 
 updateCartDisplay();
 
-The steps involved to do the app
+//The steps involved to do the app
 /* 
 ### 1. Initialization of the Cart
 
