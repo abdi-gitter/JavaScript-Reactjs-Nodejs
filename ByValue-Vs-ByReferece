@@ -18,3 +18,4 @@ function modifyObject(obj) {
 let myObj = { property: "original" };
 modifyObject(myObj);
 console.log("Outside function:", myObj.property); // "changed"
+//the difference between call by value and call by reference
