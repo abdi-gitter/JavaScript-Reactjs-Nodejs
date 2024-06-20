@@ -142,7 +142,7 @@ the `updateCartDisplay` function is called again to refresh the display
 and price calculations, ensuring the user interface always 
 reflects the current state of the cart.
 
-### Conclusion
+###   Conclusion 
 
 This JavaScript implementation leverages event handling, array manipulation, 
 and dynamic HTML content generation to create a responsive and interactive 
