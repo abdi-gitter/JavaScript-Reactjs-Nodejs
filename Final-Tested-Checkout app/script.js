@@ -1,4 +1,4 @@
-//function to update cart display in an array// 
+//function to update cart display in an array js// 
 
 let cart = [];
 
