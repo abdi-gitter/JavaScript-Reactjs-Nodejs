@@ -1,4 +1,4 @@
-//Random Choice picker master async operation
+//Random Choice picker master async operation in js
 const tagsEl = document.getElementById('tags');
 const textarea = document.getElementById('textarea');
 
