@@ -1,4 +1,4 @@
-//Example for prompt//
+//Example for prompt response//
 let num = prompt("Enter a number:");
 num = parseInt(num); 
 
