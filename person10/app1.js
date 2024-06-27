@@ -1,3 +1,4 @@
+//setTimeout
 setTimeout(function(){
     console.log('Timer')
  }, 5000);
