@@ -1,4 +1,4 @@
-// Function to display products
+// Function to display all products
 
 function displayProducts(products) {
     const sectionCenter = document.querySelector('.section-center');
