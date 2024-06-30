@@ -1,4 +1,4 @@
-// write a function that calculates the factorial of a number:
+// write a function that calculates the factorial of a number
 // factorial(5) // >> 5! is 1 * 2 * 3 * 4 * 5, which is: 120
 function factorial(num){
     let fact = ""
