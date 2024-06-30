@@ -1,3 +1,4 @@
+//parameter
 function sayHi(userName) {
     console.log(`Hello! ${userName}`);
 }
