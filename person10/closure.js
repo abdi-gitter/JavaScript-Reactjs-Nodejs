@@ -1,4 +1,4 @@
-// Simple Closure example
+// Simple Closure example js
 function createCounter(){
     let count = 0
     return function(){
