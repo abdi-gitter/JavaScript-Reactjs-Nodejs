@@ -1,3 +1,4 @@
+//function with arguments
 function sum(...args){
     return args.reduce((a, b) => a + b) + (this.bonus || 0)
 }
