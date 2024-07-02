@@ -1,4 +1,4 @@
-//Async operations
+//Async operations in js
 console.log("Hello.");
 setTimeout(function() {
   console.log("Goodbye!");
