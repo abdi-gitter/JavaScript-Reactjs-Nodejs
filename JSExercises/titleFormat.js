@@ -1,4 +1,4 @@
-//Title format
+//Title format in js
 let input = 'CLARUSWAY is a bOoTcAmP';
 
 let words = input.toLowerCase().split(' ');
