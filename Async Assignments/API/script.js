@@ -1,4 +1,4 @@
-
+//async operation
 // Fetch products data from the API
 async function fetchProducts() {
     try {
