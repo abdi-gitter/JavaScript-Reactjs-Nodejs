@@ -1,4 +1,4 @@
-//Autotext master in javascript
+//Autotext master in javascript example
 const textEl = document.getElementById('text');
 const speedEl = document.getElementById('speed');
 const text = 'We Love Programming! ♥';
