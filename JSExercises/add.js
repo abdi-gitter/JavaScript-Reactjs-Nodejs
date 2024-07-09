@@ -1,4 +1,4 @@
-//factorial
+//factorial in js
 function fact(n) {
     if (n < 0) {
         return ;
