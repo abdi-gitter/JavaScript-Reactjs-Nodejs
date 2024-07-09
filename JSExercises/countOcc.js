@@ -1,4 +1,4 @@
-//count occurences 
+//count occurences in js
 let d = 2;
 let low = 10;
 let high = 23;
