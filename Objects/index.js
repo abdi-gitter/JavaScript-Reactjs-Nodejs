@@ -21,7 +21,7 @@ const workingHours = {
     saturday: '09:00 - 15:00',
     sunday: 'closed'
     }
-    const day = prompt('Enter any day you wish to know more about: ').toLocaleLowerCase()
+    const day = prompt('Enter any day you wish to know more about:  ').toLocaleLowerCase()
     console.log(workingHours.monday)
     console.log(workingHours['tuesday'])
     console.log(workingHours[day])
