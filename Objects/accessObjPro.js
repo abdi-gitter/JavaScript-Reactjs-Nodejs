@@ -1,4 +1,4 @@
-// access to object properties via dot notation
+// access to object properties via dot notation//
 
 /* const teacher = {
     firstName: 'Amanda',
