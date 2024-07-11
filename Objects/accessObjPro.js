@@ -4,7 +4,7 @@
     firstName: 'Amanda',
     lastName: 'Bob',
     age: 44,
-    skills: ['JS', 'ReactJS', 'Python'],
+    skills: ['JS', 'ReactJS', 'Python', Nodejs],
     employed: true,
     city: 'Miami',
 }
