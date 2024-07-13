@@ -5,6 +5,7 @@ declaration ceases to exist or the function name points to the
 arrow functions that could lead to confusion or unexpected 
 behavior involving `undefined`:
 
+
 1. **Unassigned Arrow Function**: If you declare an arrow function 
 but don't assign it to a variable, you won't be able to reference 
 or call the function later. This isn't the same as the function 
