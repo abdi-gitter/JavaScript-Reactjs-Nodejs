@@ -1,4 +1,4 @@
-//The the this key word works
+//How the this key word works
 /* Using the bind Method
 The value of this refers to the object it belongs to, 
 and it can change based on how a function is called.
