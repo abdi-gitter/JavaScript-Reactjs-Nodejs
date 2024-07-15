@@ -1,4 +1,6 @@
 // ways of creating arrays in js:
+
+
 // new Array(1, 2, 3) will create an array with the values 1, 2, and 3
 const arr = new Array(1, 2, 3)
 // Array() is a constructor function, so we can also call it without the new keyword
