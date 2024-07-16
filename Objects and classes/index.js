@@ -1,5 +1,5 @@
 //function to explain objects and classes
-//EXAMPLE
+
 function User(email, name) {
     this.email = email;
     this.name = name;
