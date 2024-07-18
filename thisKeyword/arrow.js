@@ -30,7 +30,8 @@ being `undefined`, but rather, there's no reference to it.
         myFunction = () => console.log("Hello, World!");
     }
     // If the condition is false, myFunction remains undefined.
-    
+
+
 
 //Return Value**: An arrow function without a body (using the concise body syntax) 
 //returns the result of the expression following the arrow. 
@@ -42,7 +43,9 @@ being `undefined`, but rather, there's no reference to it.
     
     const returnUndefined = () => {};
     console.log(returnUndefined()); // Logs "undefined" because there's no return statement.
-   
+
+
+
 
 //Destructuring with No Matching Properties**: When using destructuring 
 //in arrow function parameters, if the passed object doesn't 
