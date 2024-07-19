@@ -5,7 +5,7 @@ console.log(this); //global object
  
 
 
-//this inside a function
+//this inside a function 
 function x(){
     //the value depends on strict / non strict mode
 console.log(this)
