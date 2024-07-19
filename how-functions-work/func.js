@@ -1,4 +1,4 @@
-//How functions work
+//How functions work in js
 var x = 1;
 a();
 b();
