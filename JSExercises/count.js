@@ -1,4 +1,4 @@
-//count
+//count in js
 let d = 2; // The digit to search for
 let low = 10; // The lower bound of the range
 let high = 23; // The upper bound of the range
