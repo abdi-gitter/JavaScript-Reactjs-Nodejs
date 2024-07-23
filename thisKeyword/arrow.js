@@ -12,6 +12,8 @@ but don't assign it to a variable, you won't be able to reference
 or call the function later. This isn't the same as the function 
 being `undefined`, but rather, there's no reference to it.
  */
+
+
     
     // This is an arrow function, but it's not assigned to a variable.
     () => console.log("Hello, World!");
