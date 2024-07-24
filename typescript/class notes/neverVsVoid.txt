@@ -1,0 +1,55 @@
+Differences:
+
+ABOVE ALL ELSE!
+Remember, if we use void, we can return from the function.
+if we use never, the function can NEVER return.
+
+Return Value:
+
+void: The function returns undefined.
+never: The function does not return at all.
+
+Use Cases:
+
+void: Used for functions that explicitly do not return anything.
+never: Used for functions that never complete normally 
+(e.g., due to throwing an error or having an infinite loop).
+Value Presence:
+
+void: Has a value (undefined).
+never: Has no values.
+In summary, void is used when a function intentionally returns nothing, 
+while never is used to indicate values or 
+functions that never occur or never return under any circumstances.
+
+-------------------------------------- VOID ---------------------------------------------
+
+In TypeScript, the void type is used to specify that a function does not return a value. 
+It's a way to explicitly state the function's behavior.
+When you declare a function with the void return type, you are telling TypeScript (and other developers) 
+that this function is not expected to return a value. 
+This can be useful in cases where a function is used for its side effects, 
+such as modifying global state or logging to the console, rather than producing a value.
+
+For example, in the provided code:
+
+function log(message:string):void {
+    console.log(message)
+}
+
+The log function is not expected to return a value. Its purpose is to print a message to the console. 
+By specifying void as the return type, you make this clear to anyone reading the code.
+
+--------------------------------------- NEVER -----------------------------------------------
+
+In TypeScript, never is a type that represents the type of values that never occur.
+For instance, never is the return type for a function expression or an arrow function expression that 
+always throws an exception or one that never returns. It is also the type of variable under a type guard that 
+can never be true.
+The never type is a subtype of, and assignable to, every type; however, no type is a subtype of, 
+or assignable to, never (except never itself).
+Here is an example of a function that never returns a value:
+function error(message: string): never {
+    throw new Error(message);
+}
+In this example, the function error always throws an error and never returns a value, so its return type is never.

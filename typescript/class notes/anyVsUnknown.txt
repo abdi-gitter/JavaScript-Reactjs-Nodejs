@@ -1,0 +1,60 @@
+Type Safety:
+any: No type safety; you can perform any operation without type checking.
+unknown: Provides type safety; requires type checking before performing operations.
+
+Assignability:
+any: Can be assigned to any type and can have any type assigned to it.
+unknown: Can be assigned to any type, but you cannot assign it directly to a specific type without type checking or a type assertion.
+
+Operations:
+any: Allows calling methods, accessing properties, and performing operations without any checks.
+unknown: Does not allow calling methods, accessing properties, or performing operations without type checking or a type assertion.
+
+Type Inference:
+any: Disables TypeScript's type inference, making the type system less effective.
+unknown: Retains TypeScript's type inference, helping to catch errors at compile time.
+
+-------------------------When dealing with an API:-----------------------
+
+When dealing with an API that returns a large object with many properties, it's often impractical to define types for every property manually. Here are some strategies to handle this scenario:
+
+1. Partial Types:
+Define types for only the properties you need. This approach keeps your type definitions manageable and focused.
+
+2. Utility Types:
+Use TypeScript utility types like Pick or Omit to create types based on existing ones but with only the properties you need.
+
+3. Index Signatures:
+Use index signatures to represent objects with dynamic or unknown keys.
+
+4. Third-Party Libraries:
+Use libraries like zod or io-ts to define and validate the shape of the data at runtime.
+
+--------------------------------- ALSO! ------------------------------------
+
+API developers sometimes provide types or schemas to help consumers use the API correctly and efficiently. Here are some common ways they might do this:
+
+1. TypeScript Type Definitions
+Some APIs, especially those designed with TypeScript in mind, provide official type definitions. These definitions can be included directly in the API's SDK or as separate packages.
+
+Example:
+SDKs: Libraries provided by API developers often come with TypeScript type definitions.
+DefinitelyTyped: Many popular JavaScript libraries have type definitions available via the @types package on npm.
+2. OpenAPI/Swagger
+APIs may include an OpenAPI (formerly Swagger) specification, which is a standard format for describing REST APIs. Tools can then generate TypeScript types from these specifications.
+
+Example:
+Swagger Codegen: Generates client libraries, server stubs, API documentation, and TypeScript types.
+OpenAPI Generator: Another tool for generating TypeScript types and other code from OpenAPI specs.
+3. GraphQL
+GraphQL APIs include a schema that defines the types and structure of the data. This schema can be used to generate TypeScript types automatically.
+
+Example:
+GraphQL Code Generator: A tool to generate TypeScript types and other code from a GraphQL schema.
+4. JSON Schema
+APIs may provide JSON Schema definitions for their endpoints. These schemas can be converted to TypeScript types.
+
+Example:
+json-schema-to-typescript: A tool that converts JSON Schemas to TypeScript types.
+5. Manual Definitions
+When official type definitions are not provided, developers might create their own types based on API documentation.

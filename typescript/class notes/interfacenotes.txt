@@ -1,0 +1,211 @@
+1. Declaration and Syntax
+Interface:
+
+typescript
+
+interface Person {
+  name: string;
+  age: number;
+}
+Type Alias:
+
+typescript
+
+type Person = {
+  name: string;
+  age: number;
+};
+2. Extending
+Interface: Can be extended using the extends keyword.
+
+typescript
+
+interface Person {
+  name: string;
+  age: number;
+}
+
+interface Employee extends Person {
+  salary: number;
+}
+Type Alias: Can be extended using intersections.
+
+typescript
+
+type Person = {
+  name: string;
+  age: number;
+};
+
+type Employee = Person & {
+  salary: number;
+};
+3. Merging Declarations
+Interface: Automatically merges multiple declarations of the same interface.
+
+typescript
+
+interface Person {
+  name: string;
+}
+
+interface Person {
+  age: number;
+}
+
+// Resulting Person interface has both name and age properties.
+Type Alias: Cannot merge multiple declarations.
+
+typescript
+
+type Person = {
+  name: string;
+};
+
+type Person = {
+  age: number;
+};  // Error: Duplicate identifier 'Person'.
+4. Type Compatibility and Constraints
+Type Alias: Can represent any type, including primitives, unions, tuples, and more.
+
+typescript
+
+type Name = string;
+type ID = number | string;
+type Pair = [number, string];
+Interface: Primarily used for objects and classes.
+
+typescript
+
+interface Person {
+  name: string;
+  age: number;
+}
+5. Index Signatures
+Interface: Can have index signatures.
+
+typescript
+
+interface StringArray {
+  [index: number]: string;
+}
+Type Alias: Can also have index signatures.
+
+typescript
+
+type StringArray = {
+  [index: number]: string;
+};
+6. Function Types
+Interface: Can define function types.
+
+typescript
+
+interface SearchFunc {
+  (source: string, subString: string): boolean;
+}
+Type Alias: Can define function types.
+
+typescript
+
+type SearchFunc = (source: string, subString: string) => boolean;
+7. Construct Signatures
+Interface: Can have construct signatures.
+
+typescript
+
+interface ClockConstructor {
+  new (hour: number, minute: number): ClockInterface;
+}
+Type Alias: Can have construct signatures.
+
+typescript
+
+type ClockConstructor = new (hour: number, minute: number) => ClockInterface;
+8. Mapped Types
+Type Alias: Commonly used with mapped types.
+
+typescript
+
+type OptionsFlags<Type> = {
+  [Property in keyof Type]: boolean;
+};
+Interface: Mapped types are more commonly seen with type aliases but can also be used with interfaces using keyof.
+
+typescript
+
+interface OptionsFlags {
+  [key: string]: boolean;
+}
+9. Utility Types
+Type Alias: Utility types like Partial, Pick, Record, etc., are more commonly used with type aliases.
+
+typescript
+
+type PartialPerson = Partial<Person>;
+Interface: Utility types can be applied to interfaces too.
+
+typescript
+
+interface Person {
+  name: string;
+  age: number;
+}
+
+type PartialPerson = Partial<Person>;
+10. Recursive Types
+Type Alias: Can define recursive types.
+
+typescript
+
+type Tree<T> = {
+  value: T;
+  left?: Tree<T>;
+  right?: Tree<T>;
+};
+Interface: Can also define recursive types.
+
+typescript
+
+interface Tree<T> {
+  value: T;
+  left?: Tree<T>;
+  right?: Tree<T>;
+}
+11. Union Types
+Type Alias: Can define union types.
+
+typescript
+
+type ID = number | string;
+Interface: Cannot define union types directly.
+
+typescript
+
+// No direct equivalent for union types.
+12. Tuple Types
+Type Alias: Can define tuple types.
+
+typescript
+
+type Tuple = [number, string];
+Interface: Cannot define tuple types directly.
+
+typescript
+
+// No direct equivalent for tuple types.
+13. Conditional Types
+Type Alias: Can define conditional types.
+
+typescript
+
+type TypeName<T> = T extends string ? 'string' : T extends number ? 'number' : 'object';
+Interface: Cannot define conditional types directly.
+
+typescript
+
+// No direct equivalent for conditional types.
+Summary
+Interfaces are best for defining object shapes and contracts, particularly when working with class implementations and needing to merge declarations.
+Type Aliases are more flexible and can define unions, tuples, intersections, mapped types, conditional types, and more. They are typically used for more complex type definitions beyond just object shapes.
+Choosing between interfaces and type aliases often depends on the specific use case and the need for features like declaration merging or more complex type compositions.
