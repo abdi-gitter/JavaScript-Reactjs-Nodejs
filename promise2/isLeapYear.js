@@ -1,8 +1,9 @@
-//How to find a leap year// 
+//How to find a leap year in javascript// 
 
 //First, let's create a function isLeapYear that takes 
 //a year as an input and returns a Promise. The Promise 
 //resolves if the year is a leap year and rejects if it is not.
+
 function isLeapYear(year) {
     return new Promise((resolve, reject) => {
       if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
