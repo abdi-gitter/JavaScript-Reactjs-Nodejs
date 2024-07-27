@@ -1,4 +1,5 @@
 // Products Array:
+
 let products = [];
 
 // Products container:
