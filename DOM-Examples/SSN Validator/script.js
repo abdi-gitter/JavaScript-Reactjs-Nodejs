@@ -1,4 +1,5 @@
 //Take a look at this example again
+
 function validate() {
     const ssnInput = document.getElementById('ssn-input').value;
     const resultElement = document.getElementById('result');
