@@ -34,7 +34,10 @@ function validate() {
 }
 
 
+
+
 /* form Noa
+
 
 function validateSSN(ssn) {
     // Check if SSN has the correct format
