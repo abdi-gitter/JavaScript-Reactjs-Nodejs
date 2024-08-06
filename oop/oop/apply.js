@@ -1,3 +1,6 @@
+// The apply method takes two arguments:
+// 1. The context object
+// 2. An array of arguments to pass to the function
 //function with arguments
 
 function sum(...args){
@@ -11,6 +14,4 @@ const contextObj = {
 const result = sum.apply(contextObj, [1,2,3,4,5])
 console.log(result) // >> 22
 
-// The apply method takes two arguments:
-// 1. The context object
-// 2. An array of arguments to pass to the function
+
