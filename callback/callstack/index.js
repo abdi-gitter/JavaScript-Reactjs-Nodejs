@@ -1,4 +1,4 @@
-//callstack 
+//callstack in js
 
 setTimeout(function(){
     console.log('Timer')
