@@ -10,10 +10,14 @@ const note = {
     email: 'johndoe@example.com',
   },
 };
+
 // traditional way
+
 const id = note.id;
 const title = note.title;
 const firstName = note.author.firstName;
+
 // destructuring
+
 const { id, title, date, author: { firstName, lastName, email } } = note;
 console.log(`${firstName} ${lastName}`, id, title, date, email);
