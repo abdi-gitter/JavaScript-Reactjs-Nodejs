@@ -172,6 +172,7 @@ const calculateTotals = () => {
     document.querySelector(".total").textContent = total.toFixed(2);
 }
 
+
 // Event Delegation:
 productsPanel.addEventListener('click', (e) => {
     // console.log(e.target)
