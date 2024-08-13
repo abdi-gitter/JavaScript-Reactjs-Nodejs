@@ -32,6 +32,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
         img
     }
 
+    
     // push the new product to the products array:
     products.push(newProduct);
 
