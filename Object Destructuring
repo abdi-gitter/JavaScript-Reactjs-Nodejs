@@ -11,7 +11,7 @@ const note = {
   },
 };
 
-// traditional way
+// traditional way of Object Destructuring
 
 const id = note.id;
 const title = note.title;
