@@ -1,4 +1,4 @@
-//function to explain objects and classes
+//function to explain objects and classes in js
 
 
 function User(email, name) {
