@@ -103,6 +103,8 @@ if('radius' in circle)
 console.log('Circle has a radius'); */
 
 
+
+
 /* Abstraction
 Hide the details, show the essentials
 
