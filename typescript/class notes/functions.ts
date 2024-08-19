@@ -2,6 +2,7 @@ let fn = ():number=>{
     return 7
 }
 
+
 let a = fn()
 
 a = 7
