@@ -181,6 +181,13 @@ console.log(uknown) // I can still log the object even though it's unknown
 // of object that has those (typed) properties
 // console.log(unknown.name) // error
 
+
+
+
+
+
+
+
 // ----------------- Functions: -----------------
 
 // if we have a function that does not return a value,
