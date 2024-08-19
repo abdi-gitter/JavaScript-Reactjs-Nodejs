@@ -1,3 +1,4 @@
+
 // INTERFACES
 // an interface is a way to define a contract on a function with respect to the arguments and their type
 // it's just like a function signature!
