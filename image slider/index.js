@@ -1,3 +1,4 @@
+// Image Slider in js
 let currentSlide = 0;
 const slides = document.querySelectorAll('#slider img');
 const totalSlides = slides.length;
