@@ -3,7 +3,6 @@
 let num = prompt("Enter a number:");
 num = parseInt(num); 
 
-
 let output;
 
 if (num > 20) {
