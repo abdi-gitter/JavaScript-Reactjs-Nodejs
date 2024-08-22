@@ -49,9 +49,7 @@ function displayProducts(products) {
   });
 
 
-
-
-  
+ 
 
 /* document.addEventListener('DOMContentLoaded', () => {
     const sectionCenter = document.querySelector('.section-center');
