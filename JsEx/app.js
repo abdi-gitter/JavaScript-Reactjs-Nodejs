@@ -16,7 +16,7 @@
 // console.log(number)
 
 
-// //  Question 2 //
+// //  Question 2 answer//
 
 
 // const input1 = 18;
