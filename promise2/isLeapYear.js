@@ -23,9 +23,7 @@ isLeapYear(2021)
   .then((message) => console.log(message))
   .catch((error) => console.error(error));
 
-  
-
-  //using async and await
+    //using async and await
   async function checkLeapYear(year) {
     try {
       const message = await isLeapYear(year);
