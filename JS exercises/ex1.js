@@ -1,6 +1,6 @@
 //Example for prompt response in javascript//
 
-let num = prompt("Enter a number:");
+let num = prompt("Enter a number to display:");
 num = parseInt(num); 
 
 let output;
