@@ -1,3 +1,4 @@
+//Celsius to Fahrenheit
 const tempInCelsius = 25;
 const tempInFahrenheit = (tempInCelsius * 9/5) + 32; //cel to fahr
 console.log(`${tempInCelsius}°C is equal to ${tempInFahrenheit }°F`);
