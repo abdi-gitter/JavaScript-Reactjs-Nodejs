@@ -1,4 +1,5 @@
 //count digits
+
 let d = 2; // The digit to count
 let low = 10; // The lower bound of the range
 let high = 23; // The upper bound of the range
