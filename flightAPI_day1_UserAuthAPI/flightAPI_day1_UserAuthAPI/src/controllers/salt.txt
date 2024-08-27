@@ -1,0 +1,40 @@
+Recommendations
+Use a Unique Salt:
+
+For better security, consider generating a unique salt for each user. Store this salt alongside the user’s hashed password in the database.
+When verifying the password, retrieve the salt from the database, hash the input password with it, and then compare the hashes.
+Function Example with a Unique Salt:
+
+javascript
+Copy code
+const crypto = require('crypto');
+
+// Function to hash a password with a given salt
+function hashPassword(password, salt) {
+    const loopCount = 10_000;
+    const charCount = 32;
+    const encType = 'sha512';
+    return crypto.pbkdf2Sync(password, salt, loopCount, charCount, encType).toString('hex');
+}
+
+// Function to generate a salt
+function generateSalt() {
+    return crypto.randomBytes(16).toString('hex');
+}
+
+// Example usage
+const password = 'user_password';
+const salt = generateSalt();
+const hashedPassword = hashPassword(password, salt);
+
+console.log(`Salt: ${salt}`);
+console.log(`Hashed Password: ${hashedPassword}`);
+
+// When verifying:
+// const storedSalt = ...; // Retrieve from database
+// const storedHash = ...; // Retrieve from database
+// const inputHash = hashPassword(inputPassword, storedSalt);
+// if (inputHash === storedHash) { /* Password is correct */ }
+Keeping Your Current Setup:
+
+If you choose to keep the fixed salt (keyCode), ensure that every time you search for a user, you hash the input password exactly as when the password was originally stored. This will allow you to compare directly in MongoDB.
