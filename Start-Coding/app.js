@@ -1,4 +1,4 @@
-//These are different js examples factory function 
+//Factory Functions in js
 
 
 /
