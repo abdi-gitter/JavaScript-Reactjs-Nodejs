@@ -1,4 +1,4 @@
-//funtion for simple sum in js //
+//Function for sum //
 
 function sum(a, b) {
     return a + b;
