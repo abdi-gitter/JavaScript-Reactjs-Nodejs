@@ -40,9 +40,6 @@ Built-in constructors
         console.log('draw');
     } 
 
-
-
-
     when we write function Circle(radius), JS will internally 
     use f --> Function(){[native code]} to construct it.
     
@@ -103,8 +100,6 @@ if('radius' in circle)
 console.log('Circle has a radius'); */
 
 
-
-
 /* Abstraction
 Hide the details, show the essentials
 
@@ -153,8 +148,6 @@ function Circle(radius){
 //now in console x = 20, y = 20, 
 //here x and y are pointing to the same object
 //and they have the same values
-
-
 
 
 
