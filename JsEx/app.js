@@ -18,7 +18,7 @@
 
 // //  Question 2 answer//
 
-
+//Finding the greatest common factor
 // const input1 = 18;
 // const input2 = 24;
 
