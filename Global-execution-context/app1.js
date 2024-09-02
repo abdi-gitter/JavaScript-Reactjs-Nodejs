@@ -1,4 +1,4 @@
-// Global execution context
+// Global execution context in javascript
 /* getName();//Hello 
 
 console.log(x); //in this case undefined
