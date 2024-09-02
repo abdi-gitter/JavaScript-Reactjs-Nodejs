@@ -22,4 +22,5 @@ function User(email, name) {
   
   console.log(userOne);
   userTwo.login();
+//How do objects and classes work in js?
   
