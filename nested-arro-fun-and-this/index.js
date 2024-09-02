@@ -142,4 +142,5 @@ document.getElementById('myButton').addEventListener('click', () => {
 The dynamic behavior of `this` in JavaScript makes it a v
 ersatile yet sometimes confusing feature. Understanding 
 how `this` is determined by the context of a function 
-all is crucial for writing effective and bug-free JavaScript code. */
+all is crucial for writing effective and bug-free JavaScript code. 
+*/
