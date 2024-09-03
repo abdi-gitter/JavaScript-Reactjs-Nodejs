@@ -1,4 +1,4 @@
-// set up event listeners for buttons #search #clear
+// set up event listeners for buttons for search and clear
 // Search
 
 document.getElementById('search').addEventListener('click', () => {
