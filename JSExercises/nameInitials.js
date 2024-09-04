@@ -1,4 +1,4 @@
-//Name initials in js
+//Name initials appointment in js
 
 let input = "John doe Marcus";
 let words = input.split(" ");
