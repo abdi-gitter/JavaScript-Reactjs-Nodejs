@@ -1,4 +1,4 @@
-//parameter function
+//How parameter function work
 function sayHi(userName) {
     console.log(`Hello! ${userName}`);
 }
