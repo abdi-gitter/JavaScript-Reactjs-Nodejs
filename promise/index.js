@@ -26,7 +26,7 @@ return orderId;
 console.log("No matter what happens, i will definitely  be called");
 });
 
-//Producer//
+//Producer side//
 
 function createOrder(cart){
     const pr = new Promise(function(resolve, reject){
