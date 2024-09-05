@@ -1,5 +1,5 @@
 // set up event listeners for buttons for search and clear
-// Search
+// Searching
 
 document.getElementById('search').addEventListener('click', () => {
     const search = document.getElementById('input').value
