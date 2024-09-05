@@ -1,4 +1,4 @@
-//Student 
+//Student object
 
 const student = {
     firstName: 'Jane',
