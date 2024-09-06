@@ -1,4 +1,4 @@
-//Example for prompt response in javascript//
+//How to prompt response 
 
 let num = prompt("Enter a number to display:");
 num = parseInt(num); 
