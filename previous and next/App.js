@@ -1,4 +1,4 @@
-//How previous nnd next work
+//How previous and next buttons work
     const contents = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"]; // Example content
     let currentIndex = 0;
 
