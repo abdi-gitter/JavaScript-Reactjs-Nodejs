@@ -8,6 +8,7 @@ document.getElementById('search').addEventListener('click', () => {
 })
 
 // Clear the countries container:
+
 document.getElementById('clear').addEventListener('click', () => {
     document.getElementById('country-container').innerHTML = ""
 })
@@ -15,6 +16,7 @@ document.getElementById('clear').addEventListener('click', () => {
 // search for a country
 // here we need to fetch data, 
 // and determine whether to append the country or render an error
+
 const searchCountry = async (countryName) => {
     try {
         // request country data from API:
@@ -47,6 +49,7 @@ const searchCountry = async (countryName) => {
 
 // render and append a country to the dom
 // here, we create a country element and append it to the countries container
+
 const renderCountry = (country) => {
 
     const {
