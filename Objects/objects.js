@@ -1,3 +1,4 @@
+//Objects in js
 //Student object
 
 const student = {
