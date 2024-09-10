@@ -1,4 +1,4 @@
-//Question
+//Question on javascript
 //How to find a leap year in javascript// 
 
 //First, let's create a function isLeapYear that takes 
