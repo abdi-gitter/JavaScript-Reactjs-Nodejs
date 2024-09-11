@@ -1,3 +1,5 @@
+// Notes on arrow functions
+
 /* In JavaScript, an arrow function itself, once defined, is a function 
 expression and cannot be "undefined" in the sense that the function 
 declaration ceases to exist or the function name points to the 
