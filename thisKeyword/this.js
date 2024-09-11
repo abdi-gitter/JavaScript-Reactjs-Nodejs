@@ -1,4 +1,6 @@
 //How the this key word works
+
+
 /* Using the bind Method
 The value of this refers to the object it belongs to, 
 and it can change based on how a function is called.
@@ -18,6 +20,7 @@ const person = {
 
 
   /* Using the call and apply Methods
+  
 Both call and apply methods call a function with a given this value. 
 call requires the arguments to be passed individually, while 
 apply takes them as an array. */
@@ -52,6 +55,7 @@ const person3 = {
 
 
   /* Using a Closure
+  
 A closure can be used to explicitly set what this refers to by 
 assigning it to another variable within a function's scope. 
 This is a common pattern in scenarios where the context might 
