@@ -1,5 +1,5 @@
 //function to explain objects and classes in js
-
+//objects an instance of a class
 
 function User(email, name) {
     this.email = email;
@@ -22,5 +22,6 @@ function User(email, name) {
   
   console.log(userOne);
   userTwo.login();
+
 //How do objects and classes work in js?
   
