@@ -1,4 +1,5 @@
 //How parameter function work
+
 function sayHi(userName) {
     console.log(`Hello! ${userName}`);
 }
@@ -14,4 +15,6 @@ let userName= 'Mark';
 let company = 'Clarusway';
 sayHi2(userName, company);
 console.log(company);
-sayHi2('Matthew'); // what will be the output?
+sayHi2('Matthew'); 
+
+// what will be the output?___
