@@ -1,3 +1,4 @@
+//Hiding e-mail
 let input = "abdisat.bedada@gmail.com";
 let atIndex = input.indexOf("@");
 let firPart = input.substring(0, atIndex);
