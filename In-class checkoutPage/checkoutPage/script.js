@@ -6,6 +6,7 @@ let products = [];
 const productsPanel = document.querySelector("#product-panel");
 
 // Form submission function:
+
 document.querySelector('form').addEventListener('submit', (e) => {
     // prevent the default form submission:
     e.preventDefault();
@@ -22,6 +23,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     const img = document.querySelector("#add-image").value;
 
     // Create a new product object:
+    
     // All that is missing from the form would be a product ID, which we will generate randomly:
     // we will make this ID so we can use it to delete the product / change quantity later on.
     const newProduct = {
