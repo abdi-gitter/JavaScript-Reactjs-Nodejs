@@ -1,4 +1,4 @@
-//leap year in js
+//finding a leap year in js
 let year = 2024; //let the year be 2024
 
 if (year % 4 === 0) {
