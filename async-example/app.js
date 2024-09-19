@@ -1,5 +1,5 @@
 // set up event listeners for buttons for search and clear
-// Searching
+// Searching elements
 
 document.getElementById('search').addEventListener('click', () => {
     const search = document.getElementById('input').value
@@ -103,6 +103,7 @@ const renderCountry = (country) => {
 }
 
 // render an error message
+
 // here, we create an error element and append it to the countries container
 // remove after 3 seconds
 const renderError = (msg) => {
