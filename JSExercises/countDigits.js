@@ -1,4 +1,4 @@
-//count digits
+//count digits in js
 
 let d = 2; // The digit to count
 let low = 10; // The lower bound of the range
