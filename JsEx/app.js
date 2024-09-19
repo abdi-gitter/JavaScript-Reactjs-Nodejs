@@ -1,4 +1,4 @@
-//More Questions on JavaScript //
+//More Questions and answers on JavaScript //
 
 //Question 1. Asking a user to input Something in a field//
 //--------------------------------------------//
