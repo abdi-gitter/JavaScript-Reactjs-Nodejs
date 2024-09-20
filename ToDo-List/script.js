@@ -1,4 +1,5 @@
-//Todo list app
+//Todo list application
+
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('add-task-form');
     const taskInput = document.getElementById('task');
