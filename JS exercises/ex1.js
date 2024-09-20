@@ -3,12 +3,12 @@
 let num = prompt("Enter a number to display:");
 num = parseInt(num); 
 
-let output;
+let output1;
 
 if (num > 20) {
-    output = (num - 20) * 2;
+    output1 = (num - 20) * 2;
 } else {
-    output = 20 - num;
+    output1 = 20 - num;
 }
 
-console.log(output);
+console.log(output1);
