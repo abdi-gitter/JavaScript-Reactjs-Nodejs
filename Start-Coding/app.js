@@ -1,4 +1,5 @@
 //Factory Functions in js
+
 //How do they work
 
 /
@@ -33,7 +34,8 @@ Built-in constructors
 
 
     functions are objects,
-    here,Circle function is an object---> function Circle(radius){
+    here,Circle function is an object---> 
+    function Circle(radius){
     console.log('this',this);
     this.radius = radius;
     this.draw = function(){
