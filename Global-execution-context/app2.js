@@ -37,8 +37,9 @@ const student2 = {
     name: "Menen",
     
 };
- 
-student.printName.call(student2) //value of this = student 2 = Menen
+
+//value of this = student 2 = Menen
+student.printName.call(student2) 
 
 
 
