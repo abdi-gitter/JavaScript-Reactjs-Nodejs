@@ -1,4 +1,5 @@
 //This simple example demo is about pass by value//
+// difference between call by value and call by reference
 function modifyPrimitive(value) {
     value = "changed";
     console.log("Inside function:", value);
