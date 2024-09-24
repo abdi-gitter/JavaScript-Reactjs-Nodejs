@@ -1,4 +1,4 @@
-//Bind
+//Bind method
 function greet(name){
     console.log(`Hello, ${name}!  My favorite color is ${this.color}.`)
 }
