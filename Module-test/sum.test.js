@@ -1,12 +1,16 @@
 const sum = require('./sum');
-// I want this to pass:
+
+// I want this test to pass:
+
 test('adds 1 + 2 to be 3', () => {
     // assertion
     // expectation
     // Matcher
   expect(sum(1, 2)).toBe(3);
 });
-// I want this to fail:
+
+// I want this test to fail:
+
 test('adds 2 + 2 to be 4', ()=>{
     expect(sum(2,2)).toBe(4)
 })
