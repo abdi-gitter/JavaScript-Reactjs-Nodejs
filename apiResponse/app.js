@@ -1,4 +1,4 @@
-//API responses
+//API responses to frontend
 document.addEventListener('DOMContentLoaded', function () {
   const usersContainer = document.getElementById('user-cards');
   let users = [];
