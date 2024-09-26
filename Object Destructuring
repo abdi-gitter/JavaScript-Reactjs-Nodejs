@@ -17,7 +17,7 @@ const id = note.id;
 const title = note.title;
 const firstName = note.author.firstName;
 
-// destructuring
+// destructuring js
 
 const { id, title, date, author: { firstName, lastName, email } } = note;
 console.log(`${firstName} ${lastName}`, id, title, date, email);
