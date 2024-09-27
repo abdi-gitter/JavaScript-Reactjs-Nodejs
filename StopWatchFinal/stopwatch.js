@@ -1,4 +1,5 @@
-//Final Project of stopwatch app
+//Final Project of stopwatch application
+
 let stopwatchStatus = "stopped";
 let milliseconds = 0, seconds = 0, minutes = 0;
 let interval;
