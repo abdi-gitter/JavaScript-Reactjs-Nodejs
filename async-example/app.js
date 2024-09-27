@@ -1,6 +1,7 @@
 // set up event listeners for buttons for search and clear
 // Searching elements
 
+
 document.getElementById('search').addEventListener('click', () => {
     const search = document.getElementById('input').value
     console.log(search)
@@ -12,6 +13,7 @@ document.getElementById('search').addEventListener('click', () => {
 document.getElementById('clear').addEventListener('click', () => {
     document.getElementById('country-container').innerHTML = ""
 })
+
 
 // search for a country
 // here we need to fetch data, 
