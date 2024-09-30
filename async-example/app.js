@@ -19,6 +19,7 @@ document.getElementById('clear').addEventListener('click', () => {
 // here we need to fetch data, 
 // and determine whether to append the country or render an error
 
+
 const searchCountry = async (countryName) => {
     try {
         // request country data from API:
