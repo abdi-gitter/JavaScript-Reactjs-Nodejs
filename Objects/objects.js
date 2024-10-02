@@ -1,5 +1,5 @@
 //Objects in js
-//Student object
+//Student as object
 
 const student = {
     firstName: 'Jane',
