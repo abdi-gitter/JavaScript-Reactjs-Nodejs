@@ -17,7 +17,7 @@ function displayProducts(products) {
     sectionCenter.innerHTML = productHtml;
   }
   
-  // Function to display category buttons
+  // Function to display category buttons 
   function displayCategoryButtons(products) {
     const btnContainer = document.querySelector('.btn-container');
     const categories = ['all', ...new Set(products.map(product => product.category))];
@@ -29,7 +29,7 @@ function displayProducts(products) {
     btnContainer.innerHTML = categoryButtons;
   }
   
-  // Function to filter products by category
+  // Function to filter products by their category 
   function filterProducts(category) {
     const filteredProducts = category === 'all' ? products : products.filter(product => product.category === category);
     displayProducts(filteredProducts);
