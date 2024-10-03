@@ -17,4 +17,4 @@ sayHi2(userName, company);
 console.log(company);
 sayHi2('Matthew'); 
 
-// what will be the output?___
+// what will be the output?   -_______
