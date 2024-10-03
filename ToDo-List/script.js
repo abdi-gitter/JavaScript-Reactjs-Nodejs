@@ -1,4 +1,4 @@
-//Todo list application
+//Todo listing application 
 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('add-task-form');
