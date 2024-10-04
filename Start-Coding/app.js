@@ -1,4 +1,4 @@
-//Notes on js FUNCTIONS
+//Notes on js functions, factory functions
 //Factory Functions in js
 
 //How do they work
