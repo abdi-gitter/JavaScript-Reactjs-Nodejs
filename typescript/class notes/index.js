@@ -1,4 +1,5 @@
 "use strict";
+
 let myName = "Chase"; // because I assigned this variable to a type of string, 
 // typescript "infers" that this variable is a string type (type inference)
 // when we declare and define a variable on the same line, typescript will infer the type
