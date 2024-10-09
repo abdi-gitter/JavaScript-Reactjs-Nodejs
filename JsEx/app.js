@@ -1,6 +1,6 @@
 //More Questions and answers on JavaScript //
 
-//Question 1. Asking a user to input Something in a field//
+//Question 1. Asking a user to input Something in a field
 
 //--------------------------------------------//
 //?  Question 1 Ask the user to input a number. Check the input of the user, 
