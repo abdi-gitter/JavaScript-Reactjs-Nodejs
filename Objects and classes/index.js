@@ -1,4 +1,5 @@
 //function to explain objects and classes in js
+
 //objects an instance of a class
 
 function User(email, name) {
