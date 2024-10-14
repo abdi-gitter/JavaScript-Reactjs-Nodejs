@@ -2,6 +2,7 @@
 
 //objects an instance of a class
 
+
 function User(email, name) {
     this.email = email;
     this.name = name;
