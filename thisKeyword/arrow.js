@@ -33,6 +33,7 @@ being `undefined`, but rather, there's no reference to it.
     if (condition) {
         myFunction = () => console.log("Hello, World!");
     }
+
     // If the condition is false, myFunction remains undefined.
 
 
