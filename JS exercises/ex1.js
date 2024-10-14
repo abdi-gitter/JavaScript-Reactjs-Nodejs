@@ -7,7 +7,8 @@ let output1;
 
 if (num > 20) {
     output1 = (num - 20) * 2;
-} else {
+} else 
+{
     output1 = 20 - num;
 }
 
