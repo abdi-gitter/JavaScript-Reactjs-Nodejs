@@ -31,5 +31,6 @@ const calculateArea = function (radius) {
     }
     return output;
   }
+
   console.log(calculateDiameter(radius))
   
