@@ -1,4 +1,4 @@
-//How Objects work  in js//
+//How Objects in js work //
 
 console.log("Index JS is running");
 const person = {
