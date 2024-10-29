@@ -39,7 +39,8 @@ function increaseCount() {
 let id = setTimeout(increaseCount, 3000);
 clearTimeout(id);
 console.log('setTimeout is stopped.');
-// expected output: setTimeout is stopped
+
+// expected output:  setTimeout is stopped
 
 
 
