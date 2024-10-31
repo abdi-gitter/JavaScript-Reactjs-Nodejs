@@ -1,4 +1,4 @@
-//How call back functions work in js
+//How call back functions work in javascript
 
 function attachEventListeners(){
     let count = 0;
