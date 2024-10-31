@@ -1,6 +1,6 @@
 //function to explain objects and classes in js
 
-//objects an instance of a class
+//objects are an instance of a class
 
 
 function User(email, name) {
