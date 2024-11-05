@@ -34,7 +34,7 @@ isLeapYear(2021)
     }
   }
   
-  // Example usage for testing 
+  // Example usage for testing the output
   checkLeapYear(2024); // This should log that 2024 is a leap year.
   checkLeapYear(2023); // This should log that 2023 is not a leap year.
   
