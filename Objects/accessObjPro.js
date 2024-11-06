@@ -25,6 +25,7 @@ console.log(teacher[key + 'Name'])
 //Questions 
 // Ask a user a day, and display the working hours for that day.
 
+
 const workingHours = {
 monday: '09:00 - 17:00',
 tuesday: '09:00 - 13:00',
