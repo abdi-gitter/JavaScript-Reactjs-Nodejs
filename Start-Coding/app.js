@@ -1,8 +1,6 @@
 //Notes on js functions, factory functions
 //functions
-//Factory Functions in js
-
-//How do they work
+//Factory Functions in js How do they work
 
 
 
