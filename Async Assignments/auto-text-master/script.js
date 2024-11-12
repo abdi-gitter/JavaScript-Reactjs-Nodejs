@@ -1,4 +1,4 @@
-//Autotext master in javascript 
+//Autotext master in javascript code
 
 const textEl = document.getElementById('text');
 const speedEl = document.getElementById('speed');
