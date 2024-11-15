@@ -1,4 +1,6 @@
 // bind returns a new function with the context of the first argument
+
+
 // All this is doing is "binding" context to the function.
 // This means that the function will be called with the context of the object passed in as the first argument.
 
