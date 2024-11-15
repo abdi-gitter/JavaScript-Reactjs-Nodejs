@@ -1,6 +1,6 @@
 //Notes
 // set up event listeners for buttons for search and clear
-// Searching elements
+// Searching elements in js
 
 
 document.getElementById('search').addEventListener('click', () => {
