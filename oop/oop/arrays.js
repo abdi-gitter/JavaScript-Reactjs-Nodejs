@@ -1,4 +1,4 @@
-// ways of creating arrays in js:
+// different ways of creating arrays in js:
 
 
 // new Array(1, 2, 3) will create an array with the values 1, 2, and 3
