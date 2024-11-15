@@ -1,4 +1,4 @@
-// The call method takes the context object as the first argument
+// The call method takes the context object as the first argument and
 // The remaining arguments are passed to the function as normal
 
 function product(a, b){
