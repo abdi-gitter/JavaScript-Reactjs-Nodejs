@@ -1,4 +1,4 @@
-//factorial in java script
+//factorial in java script lang
 
 function fact(n) {
     if (n < 0) {
