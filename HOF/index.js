@@ -1,6 +1,6 @@
 //This example demonistrates about higher order functions and how they work in javascript
-//Higher order functions
-//Redius values
+//Higher order functions in js
+//Redius values 
 const radius = [3, 2, 1, 4];
 
 const area = function(radius){
