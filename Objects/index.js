@@ -27,4 +27,6 @@ const workingHours = {
     console.log(workingHours['tuesday'])
     console.log(workingHours[day])
 
+
+
 //Index js is running
