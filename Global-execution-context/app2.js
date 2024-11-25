@@ -58,7 +58,7 @@ obj.x();
 
 
 //this inside nested arrow function
-
+ 
 onst obj2 = {
     a: 10,
     x: function() {
