@@ -14,6 +14,7 @@ const circumference = function(radius){
     return 2 * Math.PI * radius;
 };
 
+
 const diameter = function (radius) {
     return 2 * radius;
   }
