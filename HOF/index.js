@@ -30,7 +30,8 @@ const diameter = function (radius) {
     }
     return output;
   };
-  
+
+      
   now we can say 
   console.log(radius.calculate(area));
   */ 
