@@ -1,5 +1,7 @@
 //How Objects in js work    //
 
+
+
 console.log("Index JS is running");
 const person = {
     firstName: 'Abdisa',
