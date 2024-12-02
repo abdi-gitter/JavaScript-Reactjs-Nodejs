@@ -9,6 +9,7 @@ document.getElementById('search').addEventListener('click', () => {
     searchCountry(search)
 })
 
+
 // Clear the countries container first:
 
 document.getElementById('clear').addEventListener('click', () => {
