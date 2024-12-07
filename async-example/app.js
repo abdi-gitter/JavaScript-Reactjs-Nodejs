@@ -114,6 +114,7 @@ const renderCountry = (country) => {
 
 // here, we create an error element and append it to the countries container
 // remove after 3 seconds
+
 const renderError = (msg) => {
     const headerContainer = document.getElementById("header-container");
     const errorHtml = document.createElement("div");
