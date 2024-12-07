@@ -57,6 +57,7 @@ const searchCountry = async (countryName) => {
 // render and append a country to the dom
 // here, we create a country element and append it to the countries container
 
+
 const renderCountry = (country) => {
 
     const {
