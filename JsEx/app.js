@@ -23,6 +23,7 @@
 // console.log(number)
 
 
+
 // //  Question 2 answer//
 
 
