@@ -24,6 +24,7 @@ const diameter = function (radius) {
 
 
 
+
 //to make it work exactly like arr.map  
 /* Array.prototype.calculate =  function(logic){
     const output = [];
