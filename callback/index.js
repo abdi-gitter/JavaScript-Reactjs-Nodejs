@@ -8,4 +8,5 @@ function attachEventListeners(){
     console.log('Button Clicked', ++count);
     });
 }
+
 attachEventListeners();
