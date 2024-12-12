@@ -26,6 +26,7 @@ const obj = {
 obj.x(); */
 
 
+
 //this inside object's method
 const student = {
     name: "Abdisa",
