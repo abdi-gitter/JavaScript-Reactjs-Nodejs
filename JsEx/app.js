@@ -15,6 +15,7 @@
 // Example-2: input= "a" => output="That is not a valid number try again!"
 // ?+++
 
+
 // let number = +prompt('Enter a number');
 // console.log(number);
 // while(!NaN){
