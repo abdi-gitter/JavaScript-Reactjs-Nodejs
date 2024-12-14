@@ -43,6 +43,7 @@
 
 
 
+
 // console.log(`The greatest common divisor is ${gcd}`);
 const input = 88;
 
