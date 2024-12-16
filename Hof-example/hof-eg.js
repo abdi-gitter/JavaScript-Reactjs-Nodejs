@@ -14,8 +14,6 @@ const calculateArea = function (radius) {
   }
   console.log(calculateArea(radius))
 
-
-
   const calculateCircumference = function(radius){
     const output = [];
     for(let i=0; i < radius.length; i++){
