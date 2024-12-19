@@ -14,4 +14,5 @@ for(let i = low; i<=high; i++){
     currNumber = currNumber/10;
   }
 }
+
 console.log('The digit${d} occurs ${count} times between ${low} and ${high}')
