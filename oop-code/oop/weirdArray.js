@@ -1,5 +1,6 @@
 Array.prototype.POTATO = "POTATO"
 
+
 let arr = [1,2,3]
 console.log(arr.indexOf(2)) // >> 1
 console.log(arr.indexOf(5)) // >> -1
