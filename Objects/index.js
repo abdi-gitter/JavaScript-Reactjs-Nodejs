@@ -10,7 +10,6 @@ const person = {
     city: 'Miami',
 }
 
-
 console.log(person.firstName)
 console.log(person.employed)
 
