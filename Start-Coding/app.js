@@ -155,8 +155,6 @@ function Circle(radius){
 
 
 
-
-
 /* here the object is not stored in the variable 
 x, it is stored somewhere else in the memory and 
 the address of that memory location is stored 
