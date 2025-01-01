@@ -4,8 +4,6 @@
 
 //What are factory functions and how they work
 
-
-
   
 /
 *//Factory Function//
