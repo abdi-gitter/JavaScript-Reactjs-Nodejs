@@ -6,6 +6,7 @@ let count = 0; // Variable to keep track of the occurrences
 
 for (let i = low; i <= high; i++) {
   // Convert each number to a string to check for the digit
+  
   let numberStr = i.toString();
   for (let j = 0; j < numberStr.length; j++) {
     // If the current digit matches 'd', increment the count
