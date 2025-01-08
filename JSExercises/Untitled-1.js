@@ -9,6 +9,7 @@ const tempInCelsius2 = (tempInFahrenheit2 - 32) * 5/9;//fahr to cel
 console.log(`${tempInFahrenheit2}°F is equal to ${tempInCelsius2}°C`);
 
 // 
+
 or
 // const temp = 50
 // const tempName = "f"
