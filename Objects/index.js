@@ -28,5 +28,4 @@ const workingHours = {
     console.log(workingHours[day])
 
 
-
 //Index js is running
