@@ -1,7 +1,8 @@
 /* let pizza = true;
 pizza = false;
 console.log(pizza);
- */
+ */ 
+
 
 // The value of topic is not reset outside block in the case of let
 var topic = 'javascript'
