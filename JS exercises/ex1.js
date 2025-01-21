@@ -11,5 +11,4 @@ if (num > 20) {
 {
     output1 = 20 - num;
 }
-
 console.log(output1);
