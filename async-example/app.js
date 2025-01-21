@@ -1,5 +1,4 @@
 //Notes
-
 // set up event listeners for buttons for search and clear
 
 // Searching elements in js
