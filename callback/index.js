@@ -1,6 +1,5 @@
 //How call back functions work in javascript
 
-
 function attachEventListeners(){
     let count = 0;
     document.getElementById('clickMe')
