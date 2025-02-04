@@ -1,6 +1,5 @@
 //what are promises and how do we use them in js
 
-
 const cart =["shoes", "shirt", "jacket"];
 
 //promise chain:- this promise chain will keep us from callback hell
