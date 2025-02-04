@@ -18,7 +18,6 @@ const person = {
   
 
 
-
   /* Using the call and apply Methods
   
 Both call and apply methods call a function with a given this value. 
