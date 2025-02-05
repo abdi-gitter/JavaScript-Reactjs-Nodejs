@@ -30,7 +30,6 @@
 // const input2 = 24;
 
 
-
 // let gcd;
 
 // for (let i = 1; i <= input1 && i <= input2; i++) {
