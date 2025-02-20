@@ -10,7 +10,6 @@ console.log(outputEmail);
 
 
 
-
 // let input = "abdisat.bedada@gmail.com";
 // let atIndex = input.indexOf("@");
 // let firstPart = input.substring(0, atIndex);
