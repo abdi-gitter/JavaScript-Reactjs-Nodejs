@@ -46,6 +46,7 @@ const calculate  = function(radius, logic){
   //console.log(radius.map(area)) we wrote our own map which in 
 //this case is calculate, if we substitute radius with arr --> arr.map(area)
 
+
 console.log(calculate(radius, area));
 console.log(calculate(radius, circumference));
 console.log(calculate(radius, diameter));
