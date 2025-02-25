@@ -41,7 +41,8 @@ const calculate  = function(radius, logic){
     }
     return output;
   };
-  
+
+
   //console.log(radius.map(area)) we wrote our own map which in 
 //this case is calculate, if we substitute radius with arr --> arr.map(area)
 
