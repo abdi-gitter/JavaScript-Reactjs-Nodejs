@@ -2,6 +2,7 @@
 // factorial(5) is 120 // >> 5! is 1 * 2 * 3 * 4 * 5, which is: 120
 
 
+
 function factorial(num){
     let fact = ""
     let total = 1
