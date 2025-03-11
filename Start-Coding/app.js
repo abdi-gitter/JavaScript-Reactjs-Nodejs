@@ -33,7 +33,6 @@ Built-in constructors
     new Boolean(); //true, false
     new Number(); // 1,2,3,...
 
-
     functions are objects,
     here,Circle function is an object---> 
         
