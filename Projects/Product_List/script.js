@@ -1,5 +1,6 @@
 // Function to display products
 
+
 function displayProducts(products) {
     const sectionCenter = document.querySelector('.section-center');
     const productHtml = products.map(product => {
