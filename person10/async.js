@@ -17,7 +17,6 @@ setTimeout(function(){
 }, 2000)
 console.log('Goodbye')
 
-
 // program to display a text using setTimeout method
 function hello() {
     console.log('Hello world');
