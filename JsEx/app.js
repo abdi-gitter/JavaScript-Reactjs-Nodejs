@@ -44,7 +44,6 @@
 // console.log(`The greatest common divisor is ${gcd}`);
 
 
-
 const input = 88;
 for (let i = 1; i <= input; i++) {
   let row = '';
