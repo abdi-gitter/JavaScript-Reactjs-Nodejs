@@ -3,6 +3,7 @@
 // Searching elements in js
 
 
+
 document.getElementById('search').addEventListener('click', () => {
     const search = document.getElementById('input').value
     console.log(search)
