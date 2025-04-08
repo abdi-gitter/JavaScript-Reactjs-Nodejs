@@ -16,7 +16,6 @@ document.getElementById('clear').addEventListener('click', () => {
     document.getElementById('country-container').innerHTML = ""
 })
 
-
 // search for a country
 // here we need to fetch data, 
 // and determine whether to append the country or render an error
