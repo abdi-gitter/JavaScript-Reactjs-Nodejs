@@ -1,6 +1,7 @@
 //function to explain objects and classes in js
 //objects are an instance of a class
 
+
 function User(email, name) {
     this.email = email;
     this.name = name;
