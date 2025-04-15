@@ -7,7 +7,6 @@ const student = {
     age: 34,
     skills: ['JS', 'ReactJS', 'NodeJS'],
 }
-
 const teacher = {
     firstName: 'Amanda',
     lastName: 'Bob',
