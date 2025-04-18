@@ -2,6 +2,7 @@
 // set up event listeners for buttons for search and clear
 // Searching elements in js
 
+
 document.getElementById('search').addEventListener('click', () => {
     const search = document.getElementById('input').value
     console.log(search)
