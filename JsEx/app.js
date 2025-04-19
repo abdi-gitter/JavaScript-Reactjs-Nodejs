@@ -38,7 +38,6 @@
 //   }
 // }
 
-
 // console.log(`The greatest common divisor is ${gcd}`);
 
 
