@@ -1,5 +1,3 @@
-
-
 //How call back functions work in javascript
 
 function attachEventListeners(){
