@@ -1,5 +1,6 @@
 //person object in js
 
+
 function Person(firstName, lastName){
     this.firstName = firstName
     this.lastName = lastName
