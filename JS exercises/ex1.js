@@ -1,5 +1,4 @@
 //prompt  response
-
 let num = prompt("Enter a number to display:");
 num = parseInt(num); 
 let output1;
