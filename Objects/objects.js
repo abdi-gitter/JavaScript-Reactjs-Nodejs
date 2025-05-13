@@ -24,7 +24,6 @@ console.log(student)
 console.log(teacher)
 console.log(student2)
 
-
 //create object using .create() method
 const student3 = Object.create(null)
 console.log(student3)
