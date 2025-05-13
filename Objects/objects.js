@@ -1,6 +1,5 @@
 /Objects in java script
 //Student as object
-
 const student = {
     firstName: 'Jane',
     lastName: 'smith',
