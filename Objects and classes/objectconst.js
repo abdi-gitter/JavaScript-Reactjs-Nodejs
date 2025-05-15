@@ -10,6 +10,7 @@ function Person(name, age) {
     };
   }
 
+
   //To create a new instance of an object, you use the new keyword followed 
   //by the constructor function and any necessary arguments:
 
