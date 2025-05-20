@@ -21,7 +21,6 @@ let key1 = 'last'
 console.log(teacher[key + 'Name'])
  */
 
-
 //Questions 
 // Ask a user a day, and display the working hours for that day.
 
