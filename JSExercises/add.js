@@ -1,6 +1,5 @@
 //factorial in java script lang
 
-
 function fact(n) {
     if (n < 0) {
         return ;
