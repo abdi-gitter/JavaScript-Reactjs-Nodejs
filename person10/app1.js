@@ -1,5 +1,6 @@
 //setTimeout in js
 
+
 setTimeout(function(){
     console.log('Timer')
  }, 5000);
