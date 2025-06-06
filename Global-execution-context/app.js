@@ -1,6 +1,7 @@
 
 //Global execution context in js
 
+
 var x = 1;
 a();
 b();
