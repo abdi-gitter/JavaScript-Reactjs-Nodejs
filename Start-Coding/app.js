@@ -3,7 +3,6 @@
 //Factory Functions in js How do they work
 //What are factory functions and how they work
 
-
 *//Factory Function//
 function createCircle(radius){
     return {
