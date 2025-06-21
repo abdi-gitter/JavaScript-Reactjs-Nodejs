@@ -3,7 +3,6 @@
 const cart =["shoes", "shirt", "jacket"];
 
 //promise chain:- this promise chain will keep us from callback hell
-
 createOrder(cart)//promise object//
 .then(function (orderId){
 console.log(orderId);
