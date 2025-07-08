@@ -2,6 +2,7 @@
 console.log(2 && 3)
 console.log(2 || 3)
 
+
 let a;
 let b = a || 22
 console.log(b)
