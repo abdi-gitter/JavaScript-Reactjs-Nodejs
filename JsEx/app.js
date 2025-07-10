@@ -1,4 +1,3 @@
-
 //Questions on js problems
 //More Questions and answers on JavaScript /QA //
 
