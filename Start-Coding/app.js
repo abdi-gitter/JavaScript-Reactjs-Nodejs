@@ -54,7 +54,6 @@ is equivalent to
 Circle.call({}, 1) //here {} specifies the target of this
 Circle.apply({}, [1,2,3]); //functions are objects
 
-
 /* Adding/Removing properties
 Objects in JS are dynamic, after we create them we can add extra
 property or delete property.
