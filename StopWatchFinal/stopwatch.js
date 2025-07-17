@@ -45,7 +45,6 @@ function reset() {
     document.getElementById("startStop").innerHTML = "Start";
     stopwatchStatus = "stopped";
 }
-
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("startStop").addEventListener("click", startStop);
     document.getElementById("reset").addEventListener("click", reset);
