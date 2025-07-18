@@ -1,1 +1,1 @@
-let input = 
+let input = 10
