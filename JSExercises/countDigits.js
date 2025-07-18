@@ -20,7 +20,6 @@ for (let number = low; number <= high; number++) {
 
 console.log(`The digit ${d} occurs ${occurrences} times between ${low} and ${high}.`);
 
-
 // let d = 2; // The digit to search for
 // let low = 10; // The lower bound of the range
 // let high = 23; // The upper bound of the range
