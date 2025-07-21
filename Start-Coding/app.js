@@ -12,6 +12,7 @@ function createCircle(radius){
     };
 }
 
+
 const circle = createCircle(3);
 //let x = {}; -> x = new Object();
 //circle.draw();
