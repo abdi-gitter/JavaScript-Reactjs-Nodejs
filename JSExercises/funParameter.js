@@ -1,5 +1,6 @@
 //How parameter function work
 
+
 function sayHi(userName) {
     console.log(`Hello! ${userName}`);
 }
@@ -18,3 +19,4 @@ console.log(company);
 sayHi2('Matthew'); 
 
 // what will be the output?   -_______
+
